@@ -54,15 +54,13 @@ for logpath in listlog:
 
         #поиск ошибки
         if ('ERROR' in line) or ('FATAL' in line):
-            flagerror = True
+            span = re.search(r'(ERROR)|(FATAL)', line).span()
+            if span[0] == 0:
+                flagerror = True
 
-        #поиск slack
-        if (re.search(r'[Ss]lack', line)):
-            continue
-    
         #ищет время и выдает срез строки после найденных слов и когда появляется первая буква\цифра. span - кортеж из начала и конца найденного соответствия(индексы)
-        if (re.search(r'([dD]ate)|([Ss]tart [tT]ime)', line)):
-            span = re.search(r'([dD]ate)|([Ss]tart [tT]ime)', line).span()
+        if re.search(r'(\b[dD]ate)|([Ss]tart [tT]ime)', line):
+            span = re.search(r'(\b[dD]ate)|([Ss]tart [tT]ime)', line).span()
             line = line[span[1]:]
             span = re.search(r'\w', line)
             if span:
@@ -71,6 +69,10 @@ for logpath in listlog:
                 date = line
             else:
                 flagdate = True
+        
+        #поиск slack
+        if re.search(r'[Ss]lack', line):
+            continue
 
     print(fldict)
 
