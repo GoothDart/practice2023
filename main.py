@@ -37,16 +37,9 @@ for logpath in listlog:
     #для отладки
     print(path.name)
 
-    while True:
+    for line in log:
 
-        line = log.readline().strip()
-
-        if not line:
-            fldict['Filename'] = path.name
-            fldict['Error'] = flagerror
-            fldict['Date'] = date
-            fldict['Slack'] = slack
-            break
+        line = line.strip()
         
         #часть проверки времени, случай если время указано строчкой ниже
         if flagdate:
@@ -72,11 +65,19 @@ for logpath in listlog:
                 flagdate = True
         
         #поиск slack
-        if re.search(r'([Rr]eport [Ss]lack)|(Initial slew slack)', line):
+        #if re.search(r'([Rr]eport [Ss]lack)|(Initial slew slack)', line):
+        if re.search(r'[Ww]orst [Ss]lack', line):
+            span = re.search(r'[Ww]orst [Ss]lack', line).span()
+            line = line[span[1]:]
             line = line.split()
             for elem in line:
                 if re.search(r'\d', elem):
                     slack.append(elem)
+    
+    fldict['Filename'] = path.name
+    fldict['Error'] = flagerror
+    fldict['Date'] = date
+    fldict['Slack'] = slack
 
     print(fldict)
 
