@@ -2,16 +2,14 @@ from pathlib import Path
 import re
 import os
 
-namedir = input('введите имя папки')
-listlog = os.listdir(namedir)
-
 #поиск ошибки
 def searcherror(line):
     if ('ERROR' in line) or ('FATAL' in line):
         span = re.search(r'(ERROR)|(FATAL)', line).span()
         if span[0] == 0:
-            global flagerror
-            flagerror = Trueflagerror = False
+            return True
+        else:
+            return False
 
 #поиск slack
 #if re.search(r'([Rr]eport [Ss]lack)|(Initial slew slack)', line):
@@ -22,17 +20,13 @@ def searchworstslack(line):
         line = line.split()
         for elem in line:
             if re.search(r'\d', elem):
-                global slack
-                slack.append(elem)
+                return elem
 
  #ищет время и выдает срез строки после найденных слов и когда появляется первая буква\цифра. span - кортеж из начала и конца найденного соответствия(индексы)
-def searchdate(line):
-    global flagdate
-    global date
+def searchdate(line, flagdate):
     if flagdate:
-        date = line
-        flagdate = False
-    if re.search(r'(\b[dD]ate)|([Ss]tart [tT]ime)', line):
+        return [line, False]
+    elif re.search(r'(\b[dD]ate)|([Ss]tart [tT]ime)', line):
         span = re.search(r'(\b[dD]ate)|([Ss]tart [tT]ime)', line).span()
         line = line[span[1]:]
         span = re.search(r'\w', line)
@@ -40,42 +34,59 @@ def searchdate(line):
             span = span.span()
             line = line[span[0]:]
             date = line
+            return [line, flagdate]
         else:
-            flagdate = True
+            return ['', True]
+    else: return ['', flagdate]
 
-for logpath in listlog:
+def main():
+    namedir = input('введите имя папки')
+    listlog = os.listdir(namedir)
+    for logpath in listlog:
 
-    if Path(logpath).suffix != '.log':
-        continue
+        if Path(logpath).suffix != '.log':
+            continue
 
-    fldict = dict()
+        fldict = dict()
     
-    flagerror = False
-    logpath = namedir + '/' + logpath
-    log = open(logpath)
-    path = Path(logpath)
-    date = ''
-    slack = []
-    flagdate = False
+        flagerror = False
+        logpath = namedir + '/' + logpath
+        log = open(logpath)
+        path = Path(logpath)
+        slack = []
+        date_fldate = ['', False]
+        date = ''
 
-    for line in log:
+        for line in log:
 
-        line = line.strip()
+            line = line.strip()
         
-        #поиск ошибки
-        searcherror(line)
+            #поиск ошибки
+            if searcherror(line):
+                flagerror = True
 
-        #ищет время и выдает срез строки после найденных слов и когда появляется первая буква\цифра. span - кортеж из начала и конца найденного соответствия(индексы)
-        searchdate(line)
+            #ищет время и выдает срез строки после найденных слов и когда появляется первая буква\цифра. span - кортеж из начала и конца найденного соответствия(индексы)
+            date_fldate = searchdate(line, date_fldate[1])
+            if date_fldate[0]:
+                date = date_fldate[0]
 
-        #поиск slack
-        searchworstslack(line)
+            #поиск slack
+            if searchworstslack(line):
+                slack.append(searchworstslack(line))
 
-    fldict['Filename'] = path.name
-    fldict['Error'] = flagerror
-    fldict['Date'] = date
-    fldict['Slack'] = slack
+        fldict['Filename'] = path.name
+        fldict['Date'] = date
+        fldict['Error'] = flagerror
+        fldict['Slack'] = slack
+        
+        def debugging(fldict):
+            print(fldict)
+        debugging(fldict)
 
-    print(fldict)
+        def db_data():
+            return 1
+
+main()
+
 
 
