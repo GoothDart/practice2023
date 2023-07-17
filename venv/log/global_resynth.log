@@ -1,0 +1,327 @@
+[I] ephysresynthesis (version Mar 12 2019 11:49:18) started at Fri Mar 15 16:02:29 2019
+[I] Command: /home/dmitriev/lastperf/etools2/src/output/linux_x86_64/opt/bin/ephysresynthesis -log /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/log/global_resynth.log -tcl /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/eplacer/global_resynth.tcl
+[I] User: dmitriev
+[I] Host: mos018
+[I] 
+[I] Setting tool parameters file = /home/dmitriev/lastperf/etools2/src/output/data_n3xs/easic/techparams.txt for default corner
+[I] Setting device name = n3xst150f
+[I] Reading device from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/easic/n3xst150f.dds
+[I] PSTA Copyright (c) 2018, Parallax Software, Inc.
+	All rights reserved.
+	This program comes with ABSOLUTELY NO WARRANTY.
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_eio_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_logic_eio_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_edff_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_corner_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_nw_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_otp_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_clk_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_bram_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_core_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_sys_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_special_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_edff_complex_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m16gp_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m28gp_0v807ssn40c.lib (all)
+[I] Reading default corner liberty library /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/../../../dc/timing/np/n3xs_logic_dcmisc.lib (all)
+[I] Setting clk net delay model approximation data = /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ephysresynthesis/data/clk_delay_model_data/gp/0v807ssn40c.appdb for default corner
+[I] Reading snapshot ../snapshots/ar/global_placement/layout.rdb
+[I] Reading technology libraries
+[I]   Modules = 2236, sites = 2236, properties/values = 24/4866
+[I]   Analyzing port list from liberty models
+[I]     Found 544 internal ports
+[I] Reading design
+[I]   Name = ar
+[I]   Outline = (0, 0) - (3772260, 4413560)
+[I]   Ports = 151
+[I]   Instances = 2175
+[I]   Nets = 3465
+[I]   Intrinsic nets = 151, don't touch nets = 152
+[I]   Properties/values = 37/5021
+[I]   Floorplan regions = 1
+[I]   Floorplan clusters = 1
+[I] Initializing delay engine netlist interface
+[I] Initializing timing engine netlist structures
+[I] Loading SDC constraints file ./ar.eplacer_global.sdc
+[I] Setting all clocks ideal
+[I] Number of detected clocks 1
+[I] Setting data directory = /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ephysresynthesis/data
+[I] Setting logical legalization data = /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ephysresynthesis/data/n3xs.ecell
+[I] Setting register legalization data = register_legalization.data
+[I] Setting all clocks ideal
+[I] Loading hier device from snapshot
+[I] Reading technology libraries
+[I]   Modules = 189, sites = 189, properties/values = 3/76
+[I] Reading design
+[I]   Name = n3xst150f
+[I]   Outline = (0, 0) - (3772260, 4413560)
+[I]   Ports = 278
+[I]   Instances = 53947
+[I]   Nets = 118001
+[I]   Intrinsic nets = 114427, don't touch nets = 0
+[I]   Properties/values = 5/78
+[I] Reading design
+[I]   Name = eclkcore_wrap
+[I]   Outline = (0, 0) - (118000, 69800)
+[I]   Ports = 435
+[I]   Instances = 345
+[I]   Nets = 450
+[I]   Intrinsic nets = 448, don't touch nets = 0
+[I] Reading design
+[I]   Name = eclkdft_wrap
+[I]   Outline = (0, 0) - (13500, 22010)
+[I]   Instances = 55
+[I]   Nets = 2
+[I] Reading design
+[I]   Name = eclkdft_wrap_b
+[I]   Outline = (0, 0) - (19890, 22010)
+[I]   Instances = 55
+[I]   Nets = 2
+[I] Reading design
+[I]   Name = eclkdft_wrap_t
+[I]   Outline = (0, 0) - (19890, 22010)
+[I]   Instances = 55
+[I]   Nets = 2
+[I] Reading design
+[I]   Name = eclkhs_wrap
+[I]   Outline = (0, 0) - (144300, 18820)
+[I]   Ports = 296
+[I]   Instances = 1199
+[I]   Nets = 298
+[I]   Intrinsic nets = 296, don't touch nets = 0
+[I] Reading design
+[I]   Name = eclkio_wrap
+[I]   Outline = (0, 0) - (91220, 69800)
+[I]   Ports = 14
+[I]   Instances = 266
+[I]   Nets = 23
+[I]   Intrinsic nets = 21, don't touch nets = 0
+[I] Reading design
+[I]   Name = eclkior_wrap
+[I]   Outline = (0, 0) - (91220, 69800)
+[I]   Ports = 14
+[I]   Instances = 266
+[I]   Nets = 23
+[I]   Intrinsic nets = 21, don't touch nets = 0
+[I] Reading design
+[I]   Name = ehsgenblock_rt
+[I]   Outline = (0, 0) - (25220, 23540)
+[I]   Ports = 2
+[I]   Instances = 75
+[I]   Nets = 4
+[I]   Intrinsic nets = 2, don't touch nets = 0
+[I] Reading design
+[I]   Name = ehsvtile_rt
+[I]   Outline = (0, 0) - (144300, 61430)
+[I]   Instances = 148
+[I]   Nets = 2
+[I] Reading design
+[I]   Name = eioclkmotifc10_cntrl
+[I]   Outline = (0, 0) - (40709, 321000)
+[I]   Ports = 646
+[I]   Instances = 1919
+[I]   Nets = 648
+[I]   Intrinsic nets = 646, don't touch nets = 0
+[I] Reading design
+[I]   Name = eiomotifc10_cntrl
+[I]   Outline = (0, 0) - (40709, 321000)
+[I]   Ports = 646
+[I]   Instances = 1919
+[I]   Nets = 648
+[I]   Intrinsic nets = 646, don't touch nets = 0
+[I] Reading design
+[I]   Name = mhsbarc9
+[I]   Outline = (0, 0) - (144300, 7260)
+[I]   Ports = 296
+[I]   Instances = 34
+[I]   Nets = 298
+[I]   Intrinsic nets = 296, don't touch nets = 0
+[I] Reading design
+[I]   Name = smotifc10
+[I]   Outline = (0, 0) - (91532, 321000)
+[I]   Ports = 12
+[I]   Instances = 4237
+[I]   Nets = 14
+[I]   Intrinsic nets = 12, don't touch nets = 0
+[I] Reading design
+[I]   Name = dft_invh_blk_row_240
+[I]   Outline = (0, 0) - (5000, 33600)
+[I]   Instances = 48
+[I]   Nets = 2
+[I] Reading design
+[I]   Name = dft_invv_blk2_row_240
+[I]   Outline = (0, 0) - (30888, 3792)
+[I]   Instances = 24
+[I]   Nets = 2
+[I] Setting effort level = HIGH
+[I] Making output ports of sites etrimgate* intrinsic
+[I] Changing port routability: 0 ports became routable, 28 ports became not routable, 0 nets became routable, 0 nets became not routable
+[I] Saving timing report to WPO_before_global.rpt
+[I] Loading net type parameters file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/easic/net_type_techparams_0v807ssn40.txt
+[I] Loading net type parameters file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/easic/net_type_techparams_0v807ssn40.txt
+[I] Saving constraint report to WPO_before_global.all_viol.rpt
+[I] Saving constraint report to WPO_before_global.all_viol_verbose.rpt
+[I] Slack distribution
+[I] ******************************
+[I]                Reg+log =       8769, reg =          0, log =       8769
+[I]   Less  37.35: reg+log =   5.964192, reg =       -nan, log =   5.964192
+[I]   Less  37.45: reg+log =  13.217014, reg =       -nan, log =  13.217014
+[I]   Less  37.55: reg+log =  21.165470, reg =       -nan, log =  21.165470
+[I]   Less  37.65: reg+log =  29.775345, reg =       -nan, log =  29.775345
+[I]   Less  37.75: reg+log =  38.396626, reg =       -nan, log =  38.396626
+[I]   Less  37.85: reg+log =  47.245979, reg =       -nan, log =  47.245979
+[I]   Less  37.95: reg+log =  55.593567, reg =       -nan, log =  55.593567
+[I]   Less  38.05: reg+log =  64.568367, reg =       -nan, log =  64.568367
+[I]   Less  38.15: reg+log =  71.091339, reg =       -nan, log =  71.091339
+[I]   Less  38.25: reg+log =  75.230927, reg =       -nan, log =  75.230927
+[I]   Less  38.35: reg+log =  79.552971, reg =       -nan, log =  79.552971
+[I]   Less  38.45: reg+log =  82.962708, reg =       -nan, log =  82.962708
+[I]   Less  38.55: reg+log =  86.554909, reg =       -nan, log =  86.554909
+[I]   Less  38.65: reg+log =  89.816399, reg =       -nan, log =  89.816399
+[I]   Less  38.75: reg+log =  92.188385, reg =       -nan, log =  92.188385
+[I]   Less  38.85: reg+log =  94.092827, reg =       -nan, log =  94.092827
+[I]   Less  38.95: reg+log =  96.077087, reg =       -nan, log =  96.077087
+[I]   Less  39.05: reg+log =  97.582397, reg =       -nan, log =  97.582397
+[I]   Less  39.15: reg+log =  98.574524, reg =       -nan, log =  98.574524
+[I]   Less  39.25: reg+log =  99.076286, reg =       -nan, log =  99.076286
+[I]   Less  39.35: reg+log =  99.418411, reg =       -nan, log =  99.418411
+[I]   Less  39.45: reg+log =  99.669289, reg =       -nan, log =  99.669289
+[I]   Less  39.55: reg+log =  99.828941, reg =       -nan, log =  99.828941
+[I]   Less  39.65: reg+log =  99.942986, reg =       -nan, log =  99.942986
+[I]   Less  39.75: reg+log =  99.965790, reg =       -nan, log =  99.965790
+[I] ******************************
+[I] Initializing global router with 4 threads: 
+[I]   h/v edge capacity 22/75
+[I]   step (3 4), top net step (4 32), big threshold=100000.0, iters=1, node grid (36 290).
+[I]   congestion weight 1.0
+[I]   skip eiomotif areas: no, skip areas under clock h-tiles: no, independent routing: no
+[I] Number of nets 2788 (clock 0, test clock 0, mrx_top 0, mgio 0)
+[I] Average routed length: x = 15.11um, y = 21.21um
+[I] Congestion detailed distribution
+[I] Overflow         H                      V                    Total
+[I] --------------------------------------------------------------------------
+[I]   40        0   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]   35        2   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]   30        7   0.1% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]   25       15   0.1%  99.9%        7   0.1% 100.0%        6   0.1% 100.0%
+[I]   20       19   0.2%  99.8%       32   0.3%  99.9%       32   0.3%  99.9%
+[I]   15       27   0.3%  99.6%       45   0.4%  99.6%       44   0.4%  99.6%
+[I]   10       21   0.2%  99.3%       41   0.4%  99.2%       39   0.4%  99.2%
+[I]    5    10349  99.1%  99.1%    10315  98.8%  98.8%    10319  98.8%  98.8%
+[I] 
+[I] Initializing own timing graph: vertexes = 10175 (end points = 37), net adges = 5980, instance edges = 9965
+[I] Initializing own timing graph: tags = 468 (used = 12), vertex events = 19256, vertex event edges = 74772 (unique = 74772, data_check = 0, invalid = 0)
+[I] Initializing own timing graph: SIDs = 1092, SODs = 74 (+ invalid = 0)
+[I] Unfixed 0 erbuf instances
+[I] 
+[I] START ITERATIVE WORST PATHS OPTIMIZATION wsl = 37.2484 ns, tnsl = 0.0000 ns, vep = 0, avg wire length = 20.944 um, total = 72570.95999999999 um 
+[I] 
+[I] Stop optimization because target has been reached
+[I] Memory used: 1.67 Gb
+[I] Fixed 0 erbuf instances
+[I] Saving timing report to WPO_after_global.rpt
+[I] Saving constraint report to WPO_after_global.all_viol.rpt
+[I] Saving constraint report to WPO_after_global.all_viol_verbose.rpt
+[I] Slack distribution
+[I] ******************************
+[I]                Reg+log =       8769, reg =          0, log =       8769
+[I]   Less  37.35: reg+log =   5.964192, reg =       -nan, log =   5.964192
+[I]   Less  37.45: reg+log =  13.217014, reg =       -nan, log =  13.217014
+[I]   Less  37.55: reg+log =  21.165470, reg =       -nan, log =  21.165470
+[I]   Less  37.65: reg+log =  29.775345, reg =       -nan, log =  29.775345
+[I]   Less  37.75: reg+log =  38.396626, reg =       -nan, log =  38.396626
+[I]   Less  37.85: reg+log =  47.245979, reg =       -nan, log =  47.245979
+[I]   Less  37.95: reg+log =  55.593567, reg =       -nan, log =  55.593567
+[I]   Less  38.05: reg+log =  64.568367, reg =       -nan, log =  64.568367
+[I]   Less  38.15: reg+log =  71.091339, reg =       -nan, log =  71.091339
+[I]   Less  38.25: reg+log =  75.230927, reg =       -nan, log =  75.230927
+[I]   Less  38.35: reg+log =  79.552971, reg =       -nan, log =  79.552971
+[I]   Less  38.45: reg+log =  82.962708, reg =       -nan, log =  82.962708
+[I]   Less  38.55: reg+log =  86.554909, reg =       -nan, log =  86.554909
+[I]   Less  38.65: reg+log =  89.816399, reg =       -nan, log =  89.816399
+[I]   Less  38.75: reg+log =  92.188385, reg =       -nan, log =  92.188385
+[I]   Less  38.85: reg+log =  94.092827, reg =       -nan, log =  94.092827
+[I]   Less  38.95: reg+log =  96.077087, reg =       -nan, log =  96.077087
+[I]   Less  39.05: reg+log =  97.582397, reg =       -nan, log =  97.582397
+[I]   Less  39.15: reg+log =  98.574524, reg =       -nan, log =  98.574524
+[I]   Less  39.25: reg+log =  99.076286, reg =       -nan, log =  99.076286
+[I]   Less  39.35: reg+log =  99.418411, reg =       -nan, log =  99.418411
+[I]   Less  39.45: reg+log =  99.669289, reg =       -nan, log =  99.669289
+[I]   Less  39.55: reg+log =  99.828941, reg =       -nan, log =  99.828941
+[I]   Less  39.65: reg+log =  99.942986, reg =       -nan, log =  99.942986
+[I]   Less  39.75: reg+log =  99.965790, reg =       -nan, log =  99.965790
+[I] ******************************
+[I] Initializing global router with 4 threads: 
+[I]   h/v edge capacity 22/75
+[I]   step (3 4), top net step (4 32), big threshold=100000.0, iters=1, node grid (36 290).
+[I]   congestion weight 1.0
+[I]   skip eiomotif areas: no, skip areas under clock h-tiles: no, independent routing: no
+[I] Number of nets 2788 (clock 0, test clock 0, mrx_top 0, mgio 0)
+[I] Average routed length: x = 15.11um, y = 21.21um
+[I] Congestion detailed distribution
+[I] Overflow         H                      V                    Total
+[I] --------------------------------------------------------------------------
+[I]   40        0   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]   35        2   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]   30        7   0.1% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]   25       15   0.1%  99.9%        7   0.1% 100.0%        6   0.1% 100.0%
+[I]   20       19   0.2%  99.8%       32   0.3%  99.9%       32   0.3%  99.9%
+[I]   15       27   0.3%  99.6%       45   0.4%  99.6%       44   0.4%  99.6%
+[I]   10       21   0.2%  99.3%       41   0.4%  99.2%       39   0.4%  99.2%
+[I]    5    10349  99.1%  99.1%    10315  98.8%  98.8%    10319  98.8%  98.8%
+[I] 
+[I] Initializing global router with 4 threads: 
+[I]   h/v edge capacity 22/75
+[I]   step (3 4), top net step (4 32), big threshold=100000.0, iters=1, node grid (36 290).
+[I]   congestion weight 1.0
+[I]   skip eiomotif areas: no, skip areas under clock h-tiles: no, independent routing: no
+[I] Number of nets 2788 (clock 0, test clock 0, mrx_top 0, mgio 0)
+[I] Average routed length: x = 15.11um, y = 21.21um
+[I] Congestion distribution
+[I] Overflow         H                      V                    Total
+[I] --------------------------------------------------------------------------
+[I]  160        0   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]  140        0   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]  120        0   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]  110        0   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]  100        0   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]   90        0   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]   80        0   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]   60        0   0.0% 100.0%        0   0.0% 100.0%        0   0.0% 100.0%
+[I]   40       24   0.2% 100.0%        7   0.1% 100.0%        6   0.1% 100.0%
+[I]   20    10416  99.8%  99.8%    10433  99.9%  99.9%    10434  99.9%  99.9%
+[I] 
+[I] Initializing logic cells functionality structures
+[I] Merging LUT cell types: 104 into 11
+[I] Initializing ecell map (231624 sites, 0 rsc types)
+[I] Initializing rtbuf map (0 sites)
+[I] Initializing mnbuf map (0 sites)
+[I] Initializing erbuf map (576 sites)
+[I]   core outline (0,0) - (3772260,4413560)
+[I]   reset region groups
+[I]   load region groups
+[I] Motif matrix 72 x 18
+[I] Bram matrix 9 x 14
+[I] Reg file matrix 9 x 14
+[I] Initializing edff map (77040 sites, 40-60 per group, 8 rsc types (2 group occ))
+[I] Technology distance scaling 1.000000, delay scaling 1.000000
+[I]   Supported logical module number = 102, with defparams = 0
+[I] Searching for mux21 modules: MUX21X2CRRVTIY (IY=B?A:D). Selected: MUX21X2CRRVTIY
+[I] Resolving hard region violations: start
+[I]   core outline (0,0) - (3772260,4413560)
+[I]   reset region groups
+[I]   load region groups
+[I] Resolving hard region violations: finish: number = 0, avg = 0, max = 0 ( )
+[I] Restoring default module port routability
+[I] Changing port routability: 28 ports became routable, 0 ports became not routable, 0 nets became routable, 0 nets became not routable
+[I] Saving clone guide file ../snapshots/ar/global_resynth/dn_clone_guide.tcl
+[I] Saving verilog file ar.global_wpo.v
+[I] Saving constraint report to glob_resynth.all_viol.rpt
+[I] Saving constraint report to glob_resynth.all_viol.verbose.rpt
+[I] Saving snapshot ../snapshots/ar/global_resynth/layout.rdb
+[I] Saving verilog file ar.global_resynthesis.v
+[I] Saving sdc file ar.global_resynth.sdc
+[I] ephysresynthesis (version Mar 12 2019 11:49:18) finished at Fri Mar 15 16:02:46 2019
+	

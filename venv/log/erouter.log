@@ -1,0 +1,1310 @@
+[I] 		********** Augustine Version 12.dev ***********
+[I] 		Compiled on: Feb 28 2019 15:59:57
+[I] 		Change: $Change: 86872 $
+[I] >>> database load --libdef=/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/work/econfig-1-lib.defs --lib=UserDesign --cell=ar --view=physical --chip=n3xst150f 
+[I] Tech: name: 'techlib'; path: '/home/dmitriev/lastperf/nextreme-2/data_n3xs/device_libs/oa/physical/lib/techlib'; build time: 'Fri Jan  8 05:01:49 2016'
+[I] Lib: name: 'HierPhysicalDesign'; path: '/home/dmitriev/lastperf/nextreme-2/data_n3xs/device_libs/oa/physical/lib/n3xst150f/PhysicalDesign'
+[I] Lib: name: 'egroup_tech'; path: '/home/dmitriev/lastperf/nextreme-2/data_n3xs/device_libs/oa/physical/lib/egroup_tech'
+[I] Lib: name: 'tech'; path: '/home/dmitriev/lastperf/nextreme-2/data_n3xs/device_libs/oa/physical/lib/tech'
+[I] Lib: name: 'base_solid_io'; path: '/home/dmitriev/lastperf/nextreme-2/data_n3xs/device_libs/oa/physical/lib/base_solid_io'
+[I] Lib: name: 'UserDesign'; path: '/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/work/UserDesign'
+[I]       lib 'techlib'
+[I] Value of design property 'RDB_device' and option '--chip' agree: 'n3xst150f'
+[I] >>> fabric load --hierarchical --file=/home/dmitriev/lastperf/etools2/src/output/data_n3xs/erouter/data/n3xst150f.hgraph --skipCorunLoad 
+[I] Timer: Start: Load rtgraph
+[I] Hierarchical fabric DB
+[I] Number of fibers: 13491259
+[I] Model Version: n3xst150f__Nov__4_2016_06_35_51__6387591959575611659
+[I] Timer: Before Lef Macros
+[I] ************Before Lef Macros***********
+[I] Memory: RSS size:                         302,583,808 b (     288 MB)
+[I] Memory: in use by OA:                       9,851,313 b (       9 MB)
+[I] Populating 171 lef macros
+[I] Load coruns from cells
+[I] Populating component 0
+[I] Populating component 100000
+[I] Populating component 200000
+[I] Populating component 300000
+[I] Populating component 400000
+[I] Populating component 465682
+[I] Populating component 500000
+[I] 538353 out of 538353 component loaded from fabric-buffer
+[I] Timer (1): after component read : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:02)
+[I] Populating 13491259 fibers
+[I] Timer: Before FibMsg
+[I] ************Before FibMesg***********
+[I] Memory: RSS size:                         711,327,744 b (     678 MB)
+[I] Memory: in use by OA:                       8,374,993 b (       7 MB)
+[I] Total Adjacency of fibers 62982104
+[I] ************After adjacency***********
+[I] Memory: RSS size:                       1,361,674,240 b (   1,298 MB)
+[I] Memory: in use by OA:                       8,374,993 b (       7 MB)
+[I] Populating fiber 0
+[I] Populating fiber 10000000
+[I] Number fibers in egroups 12684976
+[I] Timer (1): End FibMsg : U(0:00:04): S(0:00:00): T(0:00:04) Elapsed(0:00:04)
+[I] 13491259 out of 0 Fibers Loaded, max fiber capacity is 16
+[I] Marked :0 as Medium Odd Fibers
+[I] MET_1: Number-Fibers: horz 87044, vert 617, Max-Len: horz 24168, vert 3733859
+[I] MET_2: Number-Fibers: horz 1740256, vert 3488516, Max-Len: horz 245994, vert 80994
+[I] MET_3: Number-Fibers: horz 3601587, vert 492297, Max-Len: horz 42787, vert 79370
+[I] MET_4: Number-Fibers: horz 841718, vert 1486171, Max-Len: horz 341899, vert 79390
+[I] MET_5: Number-Fibers: horz 1215222, vert 304297, Max-Len: horz 144300, vert 65530
+[I] MET_6: Number-Fibers: horz 20800, vert 153516, Max-Len: horz 118490, vert 319100
+[I] MET_7: Number-Fibers: horz 16696, vert 20758, Max-Len: horz 209391, vert 326995
+[I] MET_8: Number-Fibers: horz 11656, vert 10108, Max-Len: horz 366614, vert 319240
+[I] MET_9: Number-Fibers: horz 0, vert 0, Max-Len: horz 0, vert 0
+[I] MET_10: Number-Fibers: horz 0, vert 0, Max-Len: horz 0, vert 0
+[I] MET_11: Number-Fibers: horz 0, vert 0, Max-Len: horz 0, vert 0
+[I] Num fibers 13491259 == Sum num fibs per layer 13491259
+[I] Total adj Fibers 62982104
+[I] ************Before Internal Data Update***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                       8,374,993 b (       7 MB)
+[I] Timer: Update Internal
+[I] Timer (1): End Update Internal : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] Checking planar neighbors
+[I] Finished checking planar neighbors
+[I] There are 3411666 non-pin fibers with one neighbor
+[I] Timer (2): after populate FiberDB : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] ************Done***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                       8,374,993 b (       7 MB)
+[I] Pin fibers: multi track 0, single track 4415522, zero track 0
+[I] Timer (3): after report multi track pins : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] num removed PowerStrong 0
+[I] Number of changed capacity fibers 54864 number of efa sites 54864
+[I] DIAMAND DIAMAND DIAMAND DIAMAND DIAMAND
+[I] Timer: setUnroutableToInst
+[I] Timer (1): setUnroutableToInst : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] Timer: setRoutableProperty
+[I] setRoutableProperty
+[I] Timer (1): setRoutableProperty : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************loader.load_hier finished***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                       8,645,454 b (       8 MB)
+[I] Timer (1): End: Load rtgraph : U(0:00:07): S(0:00:00): T(0:00:07) Elapsed(0:00:08)
+[I] >>> rtenv set_int_var --var=NumThreads --val=2 
+[I] >>> rtenv set_str_var --var=HecellExtraBufferResources --val=/home/dmitriev/lastperf/etools2/src/output/data_n3xs/ephysresynthesis/data/n3xs_semi.ecell 
+[I] >>> rtenv set_str_var --var=HecellMustJoinPins --val=/home/dmitriev/lastperf/nextreme-2/data_n3xs/device_libs/oa/physical/lib/commondata/hecell_pin_join.dat 
+[I] >>> configure route --rtdb=/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/work/ar_logical.rtdb --rtoutfile=/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/work/filtered_netlist0.incr --padlessDesign --qorfile=/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/out/erouter.stats --logicalNetlist 
+[I] Timer: Starting router
+[I] Routing a N3XS design
+[I] Num Parallel Buf Removed :0
+[I] ************Before Creating Routing***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                       8,528,566 b (       8 MB)
+[I] ************Before saving Direct GND***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                       8,528,566 b (       8 MB)
+[I] RtWriterDirectGnd with must connect false
+[I] Timer: Start: Writing direct constant vias
+[I] Start Write Direct Constant Source Via
+[I] Number of constant nets: ground 794, power 18
+[I] Making direct connections for constant net number 0
+[I] Making direct connections for constant net number 100
+[I] Making direct connections for constant net number 200
+[I] Making direct connections for constant net number 300
+[I] Making direct connections for constant net number 400
+[I] Making direct connections for constant net number 500
+[I] Making direct connections for constant net number 600
+[I] Making direct connections for constant net number 700
+[I] Making direct connections for constant net number 800
+[I] Total Num constant terms WITH direct vias: Ground 1363, Power 91
+[I] Total Num constant terms WITHOUT direct vias: Ground 0, Power 0
+[I] Timer (1): End: Writing direct constant vias : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************After saving Direct GND***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                       9,880,124 b (       9 MB)
+[I] 0 created for power and ground
+[I] Loading Join pins file /home/dmitriev/lastperf/nextreme-2/data_n3xs/device_libs/oa/physical/lib/commondata/hecell_pin_join.dat
+
+[I]  76 cells loaded 
+[I] 0 nets created on unconnected must-join output pins
+[I] ************Before Creating Routing Nets***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      12,695,389 b (      12 MB)
+[I] Found 11028 routable and 15374 unroutable nets
+[I] Found 11028 routable nets in the Design
+[I] Timer: Start: Tree array
+[I] Timer (1): End: Tree array : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] Timer: Start: Make Routing Nets
+[I] Creating routing net with padless ports: 'Z[0]'
+[I] Creating routing net with padless ports: 'Z[10]'
+[I] Creating routing net with padless ports: 'Z[11]'
+[I] Creating routing net with padless ports: 'Z[12]'
+[I] Creating routing net with padless ports: 'Z[13]'
+[I] Creating routing net with padless ports: 'Z[14]'
+[I] Creating routing net with padless ports: 'Z[15]'
+[I] Creating routing net with padless ports: 'Z[16]'
+[I] Creating routing net with padless ports: 'Z[17]'
+[I] Creating routing net with padless ports: 'Z[18]'
+[I] Creating routing net with padless ports: 'Z[19]'
+[I] Creating routing net with padless ports: 'Z[1]'
+[I] Creating routing net with padless ports: 'Z[20]'
+[I] Creating routing net with padless ports: 'Z[21]'
+[I] Creating routing net with padless ports: 'Z[22]'
+[I] Creating routing net with padless ports: 'Z[23]'
+[I] Creating routing net with padless ports: 'Z[24]'
+[I] Creating routing net with padless ports: 'Z[25]'
+[I] Creating routing net with padless ports: 'Z[26]'
+[I] Creating routing net with padless ports: 'Z[27]'
+[I] Creating routing net with padless ports: 'Z[28]'
+[I] Creating routing net with padless ports: 'Z[29]'
+[I] Creating routing net with padless ports: 'Z[2]'
+[I] Creating routing net with padless ports: 'Z[30]'
+[I] Creating routing net with padless ports: 'Z[31]'
+[I] Creating routing net with padless ports: 'Z[32]'
+[I] Creating routing net with padless ports: 'Z[3]'
+[I] Creating routing net with padless ports: 'Z[4]'
+[I] Creating routing net with padless ports: 'Z[5]'
+[I] Creating routing net with padless ports: 'Z[6]'
+[I] Creating routing net with padless ports: 'Z[7]'
+[I] Creating routing net with padless ports: 'Z[8]'
+[I] Creating routing net with padless ports: 'Z[9]'
+[I] Timer (1): End: Make Routing Nets : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] Number of created padless nets is 33
+[I] ************After Creating Routing Nets***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      11,742,032 b (      11 MB)
+[I] Created 11028 Routing Nets
+[I] $Change: 86872 $ -- Compiled on Feb 28 2019 15:59:57 (process id is 28508)
+[I] ************Before creating cost manager***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      10,637,040 b (      10 MB)
+[I] ************Begin Congestion constructor***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      10,637,040 b (      10 MB)
+[I] m_NumFibers 13491259 m_CongSize 9075737
+[I] Fiber router: Using standard congestion
+[I]  PrintLayoutReport: 15
+[I]  CongestionCostNewAlg: true
+[I]  CongestionPresentInitFactor:   1.5
+[I]  CongestionHistoryInitFactor:   1
+[I]  CongestionPresentUpdateFactor: 0.1
+[I]  CongestionHistoryUpdateFactor: 0
+[I]  History and present factors will be update as: PresentFactor += UpdateFactor
+[I] UseMillerFactor: true (with MillerFactorCriticalValue 200)
+[I] ************End Congestion constructor***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      10,637,040 b (      10 MB)
+[I] ************Begin CostMgr constructor***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      10,737,646 b (      10 MB)
+[I]  WaveExpandCostFactor 2.000000 
+[I]  ViaCost 1 
+[I] ************End CostMgr constructor***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      10,737,646 b (      10 MB)
+[I] ************After creating cost manager, before creating signal router***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      10,737,646 b (      10 MB)
+[I]  UseDedicatedFabricForScanNets = False
+[I] ************After creating signal router***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      10,737,646 b (      10 MB)
+[I]  NumberOfCongestionIterations 1 
+[I] ************After Creating Global, before doing global routing***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      10,737,646 b (      10 MB)
+[I] Start: Global Route
+[I] ************Before Grouting***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      10,737,646 b (      10 MB)
+[I] Timer: Start: Global Router
+[I] Number of RoutingTrees with same Src/Target Fibers: 0
+[I] Source and Destination are swapped for 0 supply/padless nets
+[I]  Total forbid 0 fibers
+[I] Timer: Start: MST
+[I] Timer (1): End: MST : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] Changing Pin Order based on ECO
+[I] No global routing file provided
+[I] Perform sanity check for the input design netlist ...
+[I] BBoxOfFibers (80276,40136)-(3691976,3176210)
+[I] BBoxOfEcells (1071055,130420)-(2701197,3015060)
+[I] Full BBox    (0,0)-(3772260,4413560)
+[I] Bram columns 14 Bram rows 9 
+[I] Using strict clock shielding
+[I] Routing total of 11028 RoutingTrees
+[I] Total 0 shielded nets
+[I] Not-routed nets are more or equal than 10%, congestion refinement will be performed
+[I] netWthGuides 0 netWithoutGuides 11028
+[I] millerValue 2.000000
+[I]  
+[I] Run iteration on 2 threads
+[I]  UseShiftWindows:  True
+[I] Timer: Start: Grouter Iteration
+[I] Routing in 6x5 windows on 2 threads
+[I] Number of congested fibers: 0
+[I] Routing Critical Nets
+[I] Routing Non-Critical Nets
+[I]  netsForWindows 9799 netsForShiftedWindows 999 netsForOther 135
+[I] Timer: Start: Threads pass
+[I] Window(0,4) 1 of 30. Nets to reroute 826 total trees 826
+[I] Window(0,2) 2 of 30. Nets to reroute 472 total trees 472
+[I] Window(2,4) 3 of 30. Nets to reroute 401 total trees 401
+[I] Window(2,0) 4 of 30. Nets to reroute 280 total trees 280
+[I] Window(4,4) 5 of 30. Nets to reroute 257 total trees 257
+[I] Window(4,0) 6 of 30. Nets to reroute 214 total trees 214
+[I] Window(0,0) 7 of 30. Nets to reroute 180 total trees 180
+[I] Window(4,2) 8 of 30. Nets to reroute 44 total trees 44
+[I] Window(2,2) 9 of 30. Nets to reroute 26 total trees 26
+[I] ************Started routing for 9 windows***********
+[I] Memory: RSS size:                       1,566,232,576 b (   1,493 MB)
+[I] Memory: in use by OA:                      11,873,718 b (      11 MB)
+[I]  Window(0,2) 2 finished: routed 472 nets
+[I] Window 2 update data. Congested fibers 9
+[I]  Window(2,4) 3 finished: routed 401 nets
+[I] Window 3 update data. Congested fibers 9
+[I]  Window(0,4) 1 finished: routed 826 nets
+[I] Window 1 update data. Congested fibers 64
+[I]  Window(2,0) 4 finished: routed 280 nets
+[I] Window 4 update data. Congested fibers 64
+[I]  Window(4,4) 5 finished: routed 257 nets
+[I] Window 5 update data. Congested fibers 64
+[I]  Window(4,0) 6 finished: routed 214 nets
+[I] Window 6 update data. Congested fibers 64
+[I]  Window(0,0) 7 finished: routed 180 nets
+[I] Window 7 update data. Congested fibers 64
+[I]  Window(4,2) 8 finished: routed 44 nets
+[I] Window 8 update data. Congested fibers 64
+[I]  Window(2,2) 9 finished: routed 26 nets
+[I] Window 9 update data. Congested fibers 64
+[I] Timer (1): End: Threads pass : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] ************Finished routing for 9 windows***********
+[I] Memory: RSS size:                       1,616,506,880 b (   1,541 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(5,4) 10 of 30. Nets to reroute 571 total trees 571
+[I] Window(3,4) 11 of 30. Nets to reroute 438 total trees 438
+[I] Window(5,2) 12 of 30. Nets to reroute 429 total trees 429
+[I] Window(1,4) 13 of 30. Nets to reroute 281 total trees 281
+[I] Window(3,0) 14 of 30. Nets to reroute 261 total trees 261
+[I] Window(1,0) 15 of 30. Nets to reroute 208 total trees 208
+[I] Window(5,0) 16 of 30. Nets to reroute 169 total trees 169
+[I] Window(1,2) 17 of 30. Nets to reroute 44 total trees 44
+[I] Window(3,2) 18 of 30. Nets to reroute 26 total trees 26
+[I] ************Started routing for 9 windows***********
+[I] Memory: RSS size:                       1,616,506,880 b (   1,541 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(3,4) 11 finished: routed 438 nets
+[I] Window 11 update data. Congested fibers 70
+[I]  Window(5,4) 10 finished: routed 571 nets
+[I] Window 10 update data. Congested fibers 72
+[I]  Window(5,2) 12 finished: routed 429 nets
+[I] Window 12 update data. Congested fibers 72
+[I]  Window(1,4) 13 finished: routed 281 nets
+[I] Window 13 update data. Congested fibers 72
+[I]  Window(3,0) 14 finished: routed 261 nets
+[I] Window 14 update data. Congested fibers 72
+[I]  Window(1,0) 15 finished: routed 208 nets
+[I] Window 15 update data. Congested fibers 72
+[I]  Window(5,0) 16 finished: routed 169 nets
+[I] Window 16 update data. Congested fibers 72
+[I]  Window(1,2) 17 finished: routed 44 nets
+[I] Window 17 update data. Congested fibers 72
+[I]  Window(3,2) 18 finished: routed 26 nets
+[I] Window 18 update data. Congested fibers 72
+[I] Timer (1): End: Threads pass : U(0:00:02): S(0:00:00): T(0:00:02) Elapsed(0:00:01)
+[I] ************Finished routing for 9 windows***********
+[I] Memory: RSS size:                       1,618,874,368 b (   1,543 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(0,3) 19 of 30. Nets to reroute 566 total trees 566
+[I] Window(0,1) 20 of 30. Nets to reroute 429 total trees 429
+[I] Window(4,1) 21 of 30. Nets to reroute 40 total trees 40
+[I] Window(4,3) 22 of 30. Nets to reroute 40 total trees 40
+[I] Window(2,1) 23 of 30. Nets to reroute 22 total trees 22
+[I] Window(2,3) 24 of 30. Nets to reroute 22 total trees 22
+[I] ************Started routing for 6 windows***********
+[I] Memory: RSS size:                       1,618,874,368 b (   1,543 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(0,1) 20 finished: routed 429 nets
+[I] Window 20 update data. Congested fibers 72
+[I]  Window(4,1) 21 finished: routed 40 nets
+[I] Window 21 update data. Congested fibers 72
+[I]  Window(0,3) 19 finished: routed 566 nets
+[I] Window 19 update data. Congested fibers 88
+[I]  Window(4,3) 22 finished: routed 40 nets
+[I] Window 22 update data. Congested fibers 88
+[I]  Window(2,1) 23 finished: routed 22 nets
+[I] Window 23 update data. Congested fibers 88
+[I]  Window(2,3) 24 finished: routed 22 nets
+[I] Window 24 update data. Congested fibers 88
+[I] Timer (1): End: Threads pass : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:00)
+[I] ************Finished routing for 6 windows***********
+[I] Memory: RSS size:                       1,672,892,416 b (   1,595 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(1,1) 25 of 30. Nets to reroute 2595 total trees 2595
+[I] Window(5,3) 26 of 30. Nets to reroute 450 total trees 450
+[I] Window(5,1) 27 of 30. Nets to reroute 424 total trees 424
+[I] Window(1,3) 28 of 30. Nets to reroute 40 total trees 40
+[I] Window(3,1) 29 of 30. Nets to reroute 22 total trees 22
+[I] Window(3,3) 30 of 30. Nets to reroute 22 total trees 22
+[I] ************Started routing for 6 windows***********
+[I] Memory: RSS size:                       1,672,892,416 b (   1,595 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(5,3) 26 finished: routed 450 nets
+[I] Window 26 update data. Congested fibers 88
+[I]  Window(5,1) 27 finished: routed 424 nets
+[I] Window 27 update data. Congested fibers 90
+[I]  Window(1,3) 28 finished: routed 40 nets
+[I] Window 28 update data. Congested fibers 90
+[I]  Window(3,1) 29 finished: routed 22 nets
+[I] Window 29 update data. Congested fibers 90
+[I]  Window(3,3) 30 finished: routed 22 nets
+[I] Window 30 update data. Congested fibers 90
+[I]  Window(1,1) 25 finished: routed 2595 nets
+[I] Window 25 update data. Congested fibers 274
+[I] Timer (1): End: Threads pass : U(0:00:02): S(0:00:00): T(0:00:02) Elapsed(0:00:01)
+[I] ************Finished routing for 6 windows***********
+[I] Memory: RSS size:                       1,672,892,416 b (   1,595 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Pass with non shifted window finished routed 9799 nets
+[I] Timer: Start: Threads shift windows pass
+[I] Shifted Window(0,0) 1 of 20. Nets to reroute 78 total trees 78
+[I] Shifted Window(0,2) 2 of 20. Nets to reroute 70 total trees 70
+[I] Shifted Window(4,0) 3 of 20. Nets to reroute 65 total trees 65
+[I] Shifted Window(4,2) 4 of 20. Nets to reroute 45 total trees 45
+[I] Shifted Window(2,0) 5 of 20. Nets to reroute 21 total trees 21
+[I] Shifted Window(2,2) 6 of 20. Nets to reroute 2 total trees 2
+[I] ************Started routing for 6 shifted windows***********
+[I] Memory: RSS size:                       1,672,892,416 b (   1,595 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(0,0) 1 finished: routed 78 nets
+[I] Window 1 update data. Congested fibers 274
+[I]  Window(0,2) 2 finished: routed 70 nets
+[I] Window 2 update data. Congested fibers 278
+[I]  Window(4,2) 4 finished: routed 45 nets
+[I] Window 4 update data. Congested fibers 278
+[I]  Window(2,0) 5 finished: routed 21 nets
+[I] Window 5 update data. Congested fibers 278
+[I]  Window(4,0) 3 finished: routed 65 nets
+[I] Window 3 update data. Congested fibers 278
+[I]  Window(2,2) 6 finished: routed 2 nets
+[I] Window 6 update data. Congested fibers 278
+[I] Timer (1): End: Threads shift windows pass : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] ************Finished routing for 6 shifted windows***********
+[I] Memory: RSS size:                       1,672,892,416 b (   1,595 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads shift windows pass
+[I] Shifted Window(3,0) 7 of 20. Nets to reroute 24 total trees 24
+[I] Shifted Window(1,0) 8 of 20. Nets to reroute 23 total trees 23
+[I] Shifted Window(1,2) 9 of 20. Nets to reroute 2 total trees 2
+[I] Shifted Window(3,2) 10 of 20. Nets to reroute 2 total trees 2
+[I] ************Started routing for 4 shifted windows***********
+[I] Memory: RSS size:                       1,672,892,416 b (   1,595 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(3,0) 7 finished: routed 24 nets
+[I]  Window(1,0) 8 finished: routed 23 nets
+[I] Window 7 update data. Congested fibers 278
+[I] Window 8 update data. Congested fibers 278
+[I]  Window(1,2) 9 finished: routed 2 nets
+[I] Window 9 update data. Congested fibers 278
+[I]  Window(3,2) 10 finished: routed 2 nets
+[I] Window 10 update data. Congested fibers 278
+[I] Timer (1): End: Threads shift windows pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 4 shifted windows***********
+[I] Memory: RSS size:                       1,726,910,464 b (   1,646 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads shift windows pass
+[I] Shifted Window(0,3) 11 of 20. Nets to reroute 232 total trees 232
+[I] Shifted Window(4,3) 12 of 20. Nets to reroute 145 total trees 145
+[I] Shifted Window(2,3) 13 of 20. Nets to reroute 79 total trees 79
+[I] Shifted Window(0,1) 14 of 20. Nets to reroute 53 total trees 53
+[I] Shifted Window(4,1) 15 of 20. Nets to reroute 47 total trees 47
+[I] Shifted Window(2,1) 16 of 20. Nets to reroute 2 total trees 2
+[I] ************Started routing for 6 shifted windows***********
+[I] Memory: RSS size:                       1,726,910,464 b (   1,646 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(4,3) 12 finished: routed 145 nets
+[I] Window 12 update data. Congested fibers 296
+[I]  Window(2,3) 13 finished: routed 79 nets
+[I] Window 13 update data. Congested fibers 310
+[I]  Window(0,3) 11 finished: routed 232 nets
+[I] Window 11 update data. Congested fibers 354
+[I]  Window(0,1) 14 finished: routed 53 nets
+[I] Window 14 update data. Congested fibers 355
+[I]  Window(4,1) 15 finished: routed 47 nets
+[I] Window 15 update data. Congested fibers 355
+[I]  Window(2,1) 16 finished: routed 2 nets
+[I] Window 16 update data. Congested fibers 355
+[I] Timer (1): End: Threads shift windows pass : U(0:00:02): S(0:00:00): T(0:00:02) Elapsed(0:00:01)
+[I] ************Finished routing for 6 shifted windows***********
+[I] Memory: RSS size:                       1,726,910,464 b (   1,646 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads shift windows pass
+[I] Shifted Window(1,3) 17 of 20. Nets to reroute 54 total trees 54
+[I] Shifted Window(3,3) 18 of 20. Nets to reroute 51 total trees 51
+[I] Shifted Window(1,1) 19 of 20. Nets to reroute 2 total trees 2
+[I] Shifted Window(3,1) 20 of 20. Nets to reroute 2 total trees 2
+[I] ************Started routing for 4 shifted windows***********
+[I] Memory: RSS size:                       1,726,910,464 b (   1,646 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(3,3) 18 finished: routed 51 nets
+[I]  Window(1,3) 17 finished: routed 54 nets
+[I] Window 18 update data. Congested fibers 358
+[I] Window 17 update data. Congested fibers 360
+[I]  Window(1,1) 19 finished: routed 2 nets
+[I]  Window(3,1) 20 finished: routed 2 nets
+[I] Window 19 update data. Congested fibers 360
+[I] Window 20 update data. Congested fibers 360
+[I] Timer (1): End: Threads shift windows pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 4 shifted windows***********
+[I] Memory: RSS size:                       1,726,910,464 b (   1,646 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Pass with shifted window finished routed 10798 nets
+[I]  Added 0 unrouted nets to other part
+[I] Proceed other trees, the number of trees: 135
+[I]  UseDedicatedFabricForScanNets = False
+[I]  Window(0,0) 1 finished: routed 135 nets
+[I] Window 1 update data. Congested fibers 390
+[I]  Pass with other window finished routed 10933 nets
+[I] Timer (1): End: Grouter Iteration : U(0:00:09): S(0:00:00): T(0:00:09) Elapsed(0:00:05)
+[I] /***********************************************/
+[I] Iter: 1
+[I] NumRouted: 10933
+[I] Congested Fiber: 390
+[I] Congested Non-Shield Fiber: 390
+[I] iter: 1  num routed nets: 10933  num congested fibers: 390
+[I] Congestion distribution without buckets
+[I] Number of all overflown fibers: 390
+[I]   Fib |     NumAll |    NumUsed |      Total |      Ave |        Num 
+[I]   wid |       fibs |       fibs |        Occ |      Occ |    Ovflown 
+[I] ------------------------------------------------------------------
+[I]     0 |      54864 |          0 |          0 |    0.000 |          0 
+[I]     1 |    5581813 |       6728 |       6864 |    1.020 |        134 
+[I]     2 |     557448 |       1375 |       1416 |    0.515 |          0 
+[I]     3 |      17280 |          0 |          0 |    0.000 |          0 
+[I]     4 |     610672 |       1107 |       1414 |    0.319 |          0 
+[I]     5 |    1484424 |      11472 |      26892 |    0.469 |         56 
+[I]     6 |       7902 |          0 |          0 |    0.000 |          0 
+[I]     8 |     125916 |        340 |        431 |    0.158 |          0 
+[I]     9 |      54720 |        277 |        615 |    0.247 |          0 
+[I]    10 |      32496 |      18195 |      89180 |    0.490 |        200 
+[I]    11 |     294384 |       1565 |       4062 |    0.236 |          0 
+[I]    12 |     247934 |       1317 |       2304 |    0.146 |          0 
+[I]    15 |       3688 |          3 |          3 |    0.067 |          0 
+[I]    16 |       2196 |          0 |          0 |    0.000 |          0 
+[I] Total number of wires is 24,789,425
+[I] Printing layer congestion
+[I] Timer: Start: Save occupancy
+[I] Timer (1): End: Save occupancy : U(0:00:04): S(0:00:00): T(0:00:04) Elapsed(0:00:04)
+[I] /***********************************************/
+[I]  Total 0 miller violations for value 2.000000
+[I] ************After first iteration***********
+[I] Memory: RSS size:                       1,781,145,600 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Reports after iteration
+[I]  =100     1260     1260
+[I]  > 90      805     2065
+[I]  > 80     2393     4458
+[I]  > 70     1931     6389
+[I]  > 60     5359    11748
+[I]  > 50     4812    16560
+[I]  > 40     6408    22968
+[I]  > 30     1822    24790
+[I]  > 20     5728    30518
+[I]  > 10     3360    33878
+[I]  >  0     1232    35110
+[I] Num Checked: 0 Num Detoured/Num-Critical: 0/0
+[I]  updateHistoryCongestion m_HistoryFac 1.000000 
+[I]  maxHistoryFacPrev 1.000000 maxHistoryFac 4.000000
+[I]  totalHistoryFacPrev 0.000000 totalHistoryFac 416.000000
+[I] ************Iteration Ends***********
+[I] Memory: RSS size:                       1,781,145,600 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Routed Wire Length: 1500083
+[I] Timer (1): End: Reports after iteration : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:00)
+[I]  
+[I] Run iteration on 2 threads
+[I]  UseShiftWindows:  True
+[I] Timer: Start: Grouter Iteration
+[I] Routing in 6x5 windows on 2 threads
+[I] Number of congested fibers: 390
+[I] Routing Non-Critical Nets
+[I] Routing Critical Nets
+[I]  netsForWindows 9799 netsForShiftedWindows 999 netsForOther 135
+[I] Timer: Start: Threads pass
+[I] Window(0,4) 1 of 30. Nets to reroute 782 total trees 826
+[I] Window(0,2) 2 of 30. Nets to reroute 405 total trees 472
+[I] Window(2,4) 3 of 30. Nets to reroute 374 total trees 401
+[I] Window(4,4) 4 of 30. Nets to reroute 244 total trees 257
+[I] Window(0,0) 5 of 30. Nets to reroute 106 total trees 180
+[I] Window(4,0) 6 of 30. Nets to reroute 103 total trees 214
+[I] Window(2,0) 7 of 30. Nets to reroute 76 total trees 280
+[I] ************Started routing for 9 windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(0,2) 2 finished: routed 381 nets
+[I] Window 2 update data. Congested fibers 376
+[I]  Window(2,4) 3 finished: routed 377 nets
+[I] Window 3 update data. Congested fibers 368
+[I]  Window(4,4) 4 finished: routed 242 nets
+[I] Window 4 update data. Congested fibers 339
+[I]  Window(0,0) 5 finished: routed 95 nets
+[I] Window 5 update data. Congested fibers 339
+[I]  Window(4,0) 6 finished: routed 56 nets
+[I] Window 6 update data. Congested fibers 339
+[I]  Window(2,0) 7 finished: routed 40 nets
+[I] Window 7 update data. Congested fibers 339
+[I]  Window(0,4) 1 finished: routed 767 nets
+[I] Window 1 update data. Congested fibers 288
+[I] Timer (1): End: Threads pass : U(0:00:02): S(0:00:00): T(0:00:02) Elapsed(0:00:01)
+[I] ************Finished routing for 9 windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(5,4) 10 of 30. Nets to reroute 447 total trees 571
+[I] Window(3,4) 11 of 30. Nets to reroute 394 total trees 438
+[I] Window(1,4) 12 of 30. Nets to reroute 262 total trees 281
+[I] Window(5,2) 13 of 30. Nets to reroute 151 total trees 429
+[I] Window(1,0) 14 of 30. Nets to reroute 78 total trees 208
+[I] Window(5,0) 15 of 30. Nets to reroute 76 total trees 169
+[I] Window(3,0) 16 of 30. Nets to reroute 58 total trees 261
+[I] ************Started routing for 9 windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(3,4) 11 finished: routed 416 nets
+[I] Window 11 update data. Congested fibers 268
+[I]  Window(5,4) 10 finished: routed 455 nets
+[I] Window 10 update data. Congested fibers 267
+[I]  Window(1,4) 12 finished: routed 262 nets
+[I] Window 12 update data. Congested fibers 246
+[I]  Window(1,0) 14 finished: routed 37 nets
+[I] Window 14 update data. Congested fibers 246
+[I]  Window(5,2) 13 finished: routed 141 nets
+[I] Window 13 update data. Congested fibers 247
+[I]  Window(5,0) 15 finished: routed 70 nets
+[I] Window 15 update data. Congested fibers 247
+[I]  Window(3,0) 16 finished: routed 29 nets
+[I] Window 16 update data. Congested fibers 247
+[I] Timer (1): End: Threads pass : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] ************Finished routing for 9 windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(0,3) 19 of 30. Nets to reroute 521 total trees 566
+[I] Window(0,1) 20 of 30. Nets to reroute 285 total trees 429
+[I] ************Started routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(0,1) 20 finished: routed 198 nets
+[I] Window 20 update data. Congested fibers 247
+[I]  Window(0,3) 19 finished: routed 511 nets
+[I] Window 19 update data. Congested fibers 227
+[I] Timer (1): End: Threads pass : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:00)
+[I] ************Finished routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(1,1) 25 of 30. Nets to reroute 2023 total trees 2595
+[I] Window(5,3) 26 of 30. Nets to reroute 243 total trees 450
+[I] Window(5,1) 27 of 30. Nets to reroute 169 total trees 424
+[I] ************Started routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(5,3) 26 finished: routed 176 nets
+[I] Window 26 update data. Congested fibers 227
+[I]  Window(5,1) 27 finished: routed 137 nets
+[I] Window 27 update data. Congested fibers 226
+[I]  Window(1,1) 25 finished: routed 1629 nets
+[I] Window 25 update data. Congested fibers 149
+[I] Timer (1): End: Threads pass : U(0:00:02): S(0:00:00): T(0:00:02) Elapsed(0:00:02)
+[I] ************Finished routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Pass with non shifted window finished routed 6019 nets
+[I] Timer: Start: Threads shift windows pass
+[I] Shifted Window(0,2) 1 of 20. Nets to reroute 56 total trees 70
+[I] Shifted Window(0,0) 2 of 20. Nets to reroute 29 total trees 78
+[I] Shifted Window(4,0) 3 of 20. Nets to reroute 29 total trees 65
+[I] Shifted Window(4,2) 4 of 20. Nets to reroute 27 total trees 45
+[I] Shifted Window(2,0) 5 of 20. Nets to reroute 6 total trees 21
+[I] ************Started routing for 6 shifted windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(0,0) 2 finished: routed 30 nets
+[I] Window 2 update data. Congested fibers 149
+[I]  Window(0,2) 1 finished: routed 50 nets
+[I] Window 1 update data. Congested fibers 149
+[I]  Window(4,2) 4 finished: routed 23 nets
+[I] Window 4 update data. Congested fibers 149
+[I]  Window(4,0) 3 finished: routed 29 nets
+[I] Window 3 update data. Congested fibers 149
+[I]  Window(2,0) 5 finished: routed 3 nets
+[I] Window 5 update data. Congested fibers 149
+[I] Timer (1): End: Threads shift windows pass : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:00)
+[I] ************Finished routing for 6 shifted windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads shift windows pass
+[I] Shifted Window(1,0) 7 of 20. Nets to reroute 13 total trees 23
+[I] Shifted Window(3,0) 8 of 20. Nets to reroute 10 total trees 24
+[I] ************Started routing for 4 shifted windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(3,0) 8 finished: routed 12 nets
+[I] Window 8 update data. Congested fibers 149
+[I]  Window(1,0) 7 finished: routed 10 nets
+[I] Window 7 update data. Congested fibers 149
+[I] Timer (1): End: Threads shift windows pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 4 shifted windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads shift windows pass
+[I] Shifted Window(0,3) 11 of 20. Nets to reroute 210 total trees 232
+[I] Shifted Window(4,3) 12 of 20. Nets to reroute 115 total trees 145
+[I] Shifted Window(2,3) 13 of 20. Nets to reroute 67 total trees 79
+[I] Shifted Window(0,1) 14 of 20. Nets to reroute 31 total trees 53
+[I] Shifted Window(4,1) 15 of 20. Nets to reroute 25 total trees 47
+[I] ************Started routing for 6 shifted windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(4,3) 12 finished: routed 115 nets
+[I] Window 12 update data. Congested fibers 149
+[I]  Window(2,3) 13 finished: routed 74 nets
+[I] Window 13 update data. Congested fibers 149
+[I]  Window(0,1) 14 finished: routed 27 nets
+[I] Window 14 update data. Congested fibers 149
+[I]  Window(0,3) 11 finished: routed 210 nets
+[I] Window 11 update data. Congested fibers 143
+[I]  Window(4,1) 15 finished: routed 30 nets
+[I] Window 15 update data. Congested fibers 143
+[I] Timer (1): End: Threads shift windows pass : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] ************Finished routing for 6 shifted windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads shift windows pass
+[I] Shifted Window(1,3) 17 of 20. Nets to reroute 39 total trees 54
+[I] Shifted Window(3,3) 18 of 20. Nets to reroute 35 total trees 51
+[I] ************Started routing for 4 shifted windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(1,3) 17 finished: routed 42 nets
+[I]  Window(3,3) 18 finished: routed 37 nets
+[I] Window 17 update data. Congested fibers 143
+[I] Window 18 update data. Congested fibers 143
+[I] Timer (1): End: Threads shift windows pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 4 shifted windows***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Pass with shifted window finished routed 6711 nets
+[I]  Added 0 unrouted nets to other part
+[I] Proceed other trees, the number of trees: 135
+[I]  UseDedicatedFabricForScanNets = False
+[I]  Window(0,0) 1 finished: routed 72 nets
+[I] Window 1 update data. Congested fibers 150
+[I]  Pass with other window finished routed 6783 nets
+[I] Timer (1): End: Grouter Iteration : U(0:00:09): S(0:00:00): T(0:00:09) Elapsed(0:00:06)
+[I] /***********************************************/
+[I] Iter: 2
+[I] NumRouted: 6783
+[I] Congested Fiber: 150
+[I] Congested Non-Shield Fiber: 150
+[I] iter: 2  num routed nets: 6783  num congested fibers: 150 (ratio 2.60)
+[I] Congestion distribution without buckets
+[I] Number of all overflown fibers: 150
+[I]   Fib |     NumAll |    NumUsed |      Total |      Ave |        Num 
+[I]   wid |       fibs |       fibs |        Occ |      Occ |    Ovflown 
+[I] ------------------------------------------------------------------
+[I]     0 |      54864 |          0 |          0 |    0.000 |          0 
+[I]     1 |    5581813 |       7294 |       7403 |    1.015 |        109 
+[I]     2 |     557448 |       1425 |       1445 |    0.507 |          0 
+[I]     3 |      17280 |          0 |          0 |    0.000 |          0 
+[I]     4 |     610672 |       1477 |       1884 |    0.319 |          0 
+[I]     5 |    1484424 |      11513 |      24321 |    0.422 |          6 
+[I]     6 |       7902 |          0 |          0 |    0.000 |          0 
+[I]     8 |     125916 |        386 |        517 |    0.167 |          0 
+[I]     9 |      54720 |        310 |        664 |    0.238 |          0 
+[I]    10 |      32496 |      19358 |      89090 |    0.460 |         35 
+[I]    11 |     294384 |       1716 |       4520 |    0.239 |          0 
+[I]    12 |     247934 |       1578 |       3418 |    0.181 |          0 
+[I]    15 |       3688 |          1 |          1 |    0.067 |          0 
+[I]    16 |       2196 |          0 |          0 |    0.000 |          0 
+[I] Total number of wires is 24,789,425
+[I] Printing layer congestion
+[I] /***********************************************/
+[I]  Total 0 miller violations for value 2.000000
+[I] ************After first iteration***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Reports after iteration
+[I]  =100      484      484
+[I]  > 90      401      885
+[I]  > 80     1643     2528
+[I]  > 70     1858     4386
+[I]  > 60     5238     9624
+[I]  > 50     6145    15769
+[I]  > 40     7983    23752
+[I]  > 30     2223    25975
+[I]  > 20     6714    32689
+[I]  > 10     3332    36021
+[I]  >  0     1186    37207
+[I] Num Checked: 0 Num Detoured/Num-Critical: 0/0
+[I]  
+[I] Nets with the largest detour length:
+[I]   net 'DFTR_NET_10019': current length 421589, initial length 303159 (detour 118430, ratio 1.391)
+[I]   net 'DFTR_NET_2942': current length 332630, initial length 220805 (detour 111825, ratio 1.506)
+[I] Average detour for 10 worst length cases: 98831
+[I] Nets with the largest detour ratio:
+[I]   net 'LB_NET267_536': current length 30001, initial length 17579 (detour 12422, ratio 1.707)
+[I]   net '\mult_4_3/n74 ': current length 33444, initial length 19941 (detour 13503, ratio 1.677)
+[I] Average detour ratio for 10 worst ratio cases: 1.604
+[I]  updateHistoryCongestion m_HistoryFac 1.000000 
+[I]  maxHistoryFacPrev 4.000000 maxHistoryFac 4.000000
+[I]  totalHistoryFacPrev 416.000000 totalHistoryFac 567.000000
+[I]  m_PresentFac 1.600000 
+[I]  m_HistoryFac 1.000000 
+[I] ************Iteration Ends***********
+[I] Memory: RSS size:                       1,781,157,888 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Routed Wire Length: 1500051
+[I] Timer (1): End: Reports after iteration : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I]  
+[I] Run iteration on 2 threads
+[I]  UseShiftWindows:  True
+[I] Timer: Start: Grouter Iteration
+[I] Routing in 6x5 windows on 2 threads
+[I] Number of congested fibers: 150
+[I] Routing Non-Critical Nets
+[I] Routing Critical Nets
+[I]  netsForWindows 9799 netsForShiftedWindows 999 netsForOther 135
+[I] Timer: Start: Threads pass
+[I] Window(0,4) 1 of 30. Nets to reroute 121 total trees 826
+[I] Window(2,4) 2 of 30. Nets to reroute 25 total trees 401
+[I] ************Started routing for 9 windows***********
+[I] Memory: RSS size:                       1,781,166,080 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(2,4) 2 finished: routed 4 nets
+[I] Window 2 update data. Congested fibers 142
+[I]  Window(0,4) 1 finished: routed 49 nets
+[I] Window 1 update data. Congested fibers 123
+[I] Timer (1): End: Threads pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 9 windows***********
+[I] Memory: RSS size:                       1,781,166,080 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(5,2) 10 of 30. Nets to reroute 11 total trees 429
+[I] Window(5,4) 11 of 30. Nets to reroute 2 total trees 571
+[I] ************Started routing for 9 windows***********
+[I] Memory: RSS size:                       1,781,166,080 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(5,2) 10 finished: routed 1 nets
+[I] Window 10 update data. Congested fibers 122
+[I]  Window(5,4) 11 finished: routed 1 nets
+[I] Window 11 update data. Congested fibers 121
+[I] Timer (1): End: Threads pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 9 windows***********
+[I] Memory: RSS size:                       1,781,174,272 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(0,3) 19 of 30. Nets to reroute 8 total trees 566
+[I] ************Started routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,174,272 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(0,3) 19 finished: routed 1 nets
+[I] Window 19 update data. Congested fibers 120
+[I] Timer (1): End: Threads pass : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:00)
+[I] ************Finished routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(1,1) 25 of 30. Nets to reroute 221 total trees 2595
+[I] Window(5,1) 26 of 30. Nets to reroute 12 total trees 424
+[I] ************Started routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(5,1) 26 finished: routed 2 nets
+[I] Window 26 update data. Congested fibers 119
+[I]  Window(1,1) 25 finished: routed 123 nets
+[I] Window 25 update data. Congested fibers 26
+[I] Timer (1): End: Threads pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:01)
+[I] ************Finished routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Pass with non shifted window finished routed 181 nets
+[I] Timer: Start: Threads shift windows pass
+[I] Shifted Window(0,3) 11 of 20. Nets to reroute 16 total trees 232
+[I] Shifted Window(2,3) 12 of 20. Nets to reroute 7 total trees 79
+[I] ************Started routing for 20 shifted windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(2,3) 12 finished: routed 0 nets
+[I]  Window(0,3) 11 finished: routed 4 nets
+[I] Window 12 update data. Congested fibers 26
+[I] Window 11 update data. Congested fibers 18
+[I] Timer (1): End: Threads shift windows pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 20 shifted windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Pass with shifted window finished routed 185 nets
+[I]  Added 0 unrouted nets to other part
+[I] Proceed other trees, the number of trees: 135
+[I]  UseDedicatedFabricForScanNets = False
+[I]  Window(0,0) 1 finished: routed 0 nets
+[I] Window 1 update data. Congested fibers 18
+[I]  Pass with other window finished routed 185 nets
+[I] Timer (1): End: Grouter Iteration : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] /***********************************************/
+[I] Iter: 3
+[I] NumRouted: 185
+[I] Congested Fiber: 18
+[I] Congested Non-Shield Fiber: 18
+[I] iter: 3  num routed nets: 185  num congested fibers: 18 (ratio 8.33)
+[I] Congestion distribution without buckets
+[I] Number of all overflown fibers: 18
+[I]   Fib |     NumAll |    NumUsed |      Total |      Ave |        Num 
+[I]   wid |       fibs |       fibs |        Occ |      Occ |    Ovflown 
+[I] ------------------------------------------------------------------
+[I]     0 |      54864 |          0 |          0 |    0.000 |          0 
+[I]     1 |    5581813 |       7314 |       7329 |    1.002 |         15 
+[I]     2 |     557448 |       1417 |       1437 |    0.507 |          0 
+[I]     3 |      17280 |          0 |          0 |    0.000 |          0 
+[I]     4 |     610672 |       1507 |       1926 |    0.320 |          0 
+[I]     5 |    1484424 |      11529 |      24436 |    0.424 |          0 
+[I]     6 |       7902 |          0 |          0 |    0.000 |          0 
+[I]     8 |     125916 |        395 |        524 |    0.166 |          0 
+[I]     9 |      54720 |        310 |        676 |    0.242 |          0 
+[I]    10 |      32496 |      19357 |      89094 |    0.460 |          3 
+[I]    11 |     294384 |       1711 |       4492 |    0.239 |          0 
+[I]    12 |     247934 |       1568 |       3423 |    0.182 |          0 
+[I]    15 |       3688 |          1 |          1 |    0.067 |          0 
+[I]    16 |       2196 |          0 |          0 |    0.000 |          0 
+[I] Total number of wires is 24,789,425
+[I] Printing layer congestion
+[I] /***********************************************/
+[I]  Total 0 miller violations for value 2.000000
+[I] ************After first iteration***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Reports after iteration
+[I]  =100      446      446
+[I]  > 90      464      910
+[I]  > 80     1668     2578
+[I]  > 70     1843     4421
+[I]  > 60     5244     9665
+[I]  > 50     6158    15823
+[I]  > 40     8019    23842
+[I]  > 30     2184    26026
+[I]  > 20     6678    32704
+[I]  > 10     3379    36083
+[I]  >  0     1163    37246
+[I] Num Checked: 0 Num Detoured/Num-Critical: 0/0
+[I]  
+[I] Nets with the largest detour length:
+[I]   net 'DFTR_NET_10019': current length 421589, initial length 303159 (detour 118430, ratio 1.391)
+[I]   net 'DFTR_NET_2942': current length 332630, initial length 220805 (detour 111825, ratio 1.506)
+[I] Average detour for 10 worst length cases: 99516
+[I] Nets with the largest detour ratio:
+[I]   net 'LB_NET267_536': current length 30001, initial length 17579 (detour 12422, ratio 1.707)
+[I]   net '\mult_4_3/n74 ': current length 33444, initial length 19941 (detour 13503, ratio 1.677)
+[I] Average detour ratio for 10 worst ratio cases: 1.604
+[I]  updateHistoryCongestion m_HistoryFac 1.000000 
+[I]  maxHistoryFacPrev 4.000000 maxHistoryFac 4.000000
+[I]  totalHistoryFacPrev 567.000000 totalHistoryFac 585.000000
+[I]  m_PresentFac 1.700000 
+[I]  m_HistoryFac 1.000000 
+[I] ************Iteration Ends***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Routed Wire Length: 1500388
+[I] Timer (1): End: Reports after iteration : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:00)
+[I]  
+[I] Run iteration on 2 threads
+[I]  UseShiftWindows:  True
+[I] Timer: Start: Grouter Iteration
+[I] Routing in 6x5 windows on 2 threads
+[I] Number of congested fibers: 18
+[I] Routing Non-Critical Nets
+[I] Routing Critical Nets
+[I]  netsForWindows 9799 netsForShiftedWindows 999 netsForOther 135
+[I] Timer: Start: Threads pass
+[I] Window(0,4) 1 of 30. Nets to reroute 15 total trees 826
+[I] ************Started routing for 18 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(0,4) 1 finished: routed 1 nets
+[I] Window 1 update data. Congested fibers 15
+[I] Timer (1): End: Threads pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 18 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(0,3) 19 of 30. Nets to reroute 1 total trees 566
+[I] ************Started routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(0,3) 19 finished: routed 1 nets
+[I] Window 19 update data. Congested fibers 14
+[I] Timer (1): End: Threads pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Threads pass
+[I] Window(1,1) 25 of 30. Nets to reroute 28 total trees 2595
+[I] ************Started routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(1,1) 25 finished: routed 18 nets
+[I] Window 25 update data. Congested fibers 3
+[I] Timer (1): End: Threads pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:01)
+[I] ************Finished routing for 6 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Pass with non shifted window finished routed 20 nets
+[I] Timer: Start: Threads shift windows pass
+[I] Shifted Window(0,3) 11 of 20. Nets to reroute 1 total trees 232
+[I] ************Started routing for 20 shifted windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(0,3) 11 finished: routed 0 nets
+[I] Window 11 update data. Congested fibers 3
+[I] Timer (1): End: Threads shift windows pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 20 shifted windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Pass with shifted window finished routed 20 nets
+[I]  Added 0 unrouted nets to other part
+[I] Proceed other trees, the number of trees: 135
+[I]  Pass with other window finished routed 20 nets
+[I] Timer (1): End: Grouter Iteration : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:01)
+[I] /***********************************************/
+[I] Iter: 4
+[I] NumRouted: 20
+[I] Congested Fiber: 3
+[I] Congested Non-Shield Fiber: 3
+[I] iter: 4  num routed nets: 20  num congested fibers: 3 (ratio 6.00)
+[I] Congestion distribution without buckets
+[I] Number of all overflown fibers: 3
+[I]   Fib |     NumAll |    NumUsed |      Total |      Ave |        Num 
+[I]   wid |       fibs |       fibs |        Occ |      Occ |    Ovflown 
+[I] ------------------------------------------------------------------
+[I]     0 |      54864 |          0 |          0 |    0.000 |          0 
+[I]     1 |    5581813 |       7322 |       7325 |    1.000 |          3 
+[I]     2 |     557448 |       1416 |       1436 |    0.507 |          0 
+[I]     3 |      17280 |          0 |          0 |    0.000 |          0 
+[I]     4 |     610672 |       1506 |       1922 |    0.319 |          0 
+[I]     5 |    1484424 |      11528 |      24448 |    0.424 |          0 
+[I]     6 |       7902 |          0 |          0 |    0.000 |          0 
+[I]     8 |     125916 |        395 |        524 |    0.166 |          0 
+[I]     9 |      54720 |        310 |        688 |    0.247 |          0 
+[I]    10 |      32496 |      19357 |      89096 |    0.460 |          0 
+[I]    11 |     294384 |       1714 |       4496 |    0.238 |          0 
+[I]    12 |     247934 |       1568 |       3424 |    0.182 |          0 
+[I]    15 |       3688 |          1 |          1 |    0.067 |          0 
+[I]    16 |       2196 |          0 |          0 |    0.000 |          0 
+[I] Total number of wires is 24,789,425
+[I] Printing layer congestion
+[I] /***********************************************/
+[I]  Total 0 miller violations for value 2.000000
+[I] ************After first iteration***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Reports after iteration
+[I]  =100      446      446
+[I]  > 90      469      915
+[I]  > 80     1661     2576
+[I]  > 70     1840     4416
+[I]  > 60     5259     9675
+[I]  > 50     6157    15832
+[I]  > 40     8015    23847
+[I]  > 30     2188    26035
+[I]  > 20     6671    32706
+[I]  > 10     3377    36083
+[I]  >  0     1164    37247
+[I] Num Checked: 0 Num Detoured/Num-Critical: 0/0
+[I]  
+[I] Nets with the largest detour length:
+[I]   net 'DFTR_NET_10019': current length 421589, initial length 303159 (detour 118430, ratio 1.391)
+[I]   net 'DFTR_NET_2942': current length 332630, initial length 220805 (detour 111825, ratio 1.506)
+[I] Average detour for 10 worst length cases: 100025
+[I] Nets with the largest detour ratio:
+[I]   net 'LB_NET267_536': current length 30001, initial length 17579 (detour 12422, ratio 1.707)
+[I]   net '\mult_4_3/n74 ': current length 33444, initial length 19941 (detour 13503, ratio 1.677)
+[I] Average detour ratio for 10 worst ratio cases: 1.604
+[I]  updateHistoryCongestion m_HistoryFac 1.000000 
+[I]  maxHistoryFacPrev 4.000000 maxHistoryFac 4.000000
+[I]  totalHistoryFacPrev 585.000000 totalHistoryFac 588.000000
+[I]  m_PresentFac 1.800000 
+[I]  m_HistoryFac 1.000000 
+[I] ************Iteration Ends***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Routed Wire Length: 1500526
+[I] Timer (1): End: Reports after iteration : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I]  
+[I] Run iteration on 2 threads
+[I]  UseShiftWindows:  True
+[I] Timer: Start: Grouter Iteration
+[I] Routing in 6x5 windows on 2 threads
+[I] Number of congested fibers: 3
+[I] Routing Non-Critical Nets
+[I] Routing Critical Nets
+[I]  netsForWindows 9799 netsForShiftedWindows 999 netsForOther 135
+[I] Timer: Start: Threads pass
+[I] Window(1,1) 25 of 30. Nets to reroute 6 total trees 2595
+[I] ************Started routing for 30 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Window(1,1) 25 finished: routed 4 nets
+[I] Window 25 update data. Congested fibers 0
+[I] Timer (1): End: Threads pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 30 windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Pass with non shifted window finished routed 4 nets
+[I] Timer: Start: Threads shift windows pass
+[I] ************Started routing for 20 shifted windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer (1): End: Threads shift windows pass : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************Finished routing for 20 shifted windows***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  Pass with shifted window finished routed 4 nets
+[I]  Added 0 unrouted nets to other part
+[I] Proceed other trees, the number of trees: 135
+[I]  Pass with other window finished routed 4 nets
+[I] Timer (1): End: Grouter Iteration : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] /***********************************************/
+[I] Iter: 5
+[I] NumRouted: 4
+[I] Congested Fiber: 0
+[I] Congested Non-Shield Fiber: 0
+[I] iter: 5  num routed nets: 4  num congested fibers: 0
+[I] Congestion distribution without buckets
+[I] Number of all overflown fibers: 0
+[I]   Fib |     NumAll |    NumUsed |      Total |      Ave |        Num 
+[I]   wid |       fibs |       fibs |        Occ |      Occ |    Ovflown 
+[I] ------------------------------------------------------------------
+[I]     0 |      54864 |          0 |          0 |    0.000 |          0 
+[I]     1 |    5581813 |       7322 |       7322 |    1.000 |          0 
+[I]     2 |     557448 |       1416 |       1436 |    0.507 |          0 
+[I]     3 |      17280 |          0 |          0 |    0.000 |          0 
+[I]     4 |     610672 |       1506 |       1922 |    0.319 |          0 
+[I]     5 |    1484424 |      11528 |      24451 |    0.424 |          0 
+[I]     6 |       7902 |          0 |          0 |    0.000 |          0 
+[I]     8 |     125916 |        395 |        524 |    0.166 |          0 
+[I]     9 |      54720 |        310 |        688 |    0.247 |          0 
+[I]    10 |      32496 |      19357 |      89096 |    0.460 |          0 
+[I]    11 |     294384 |       1714 |       4496 |    0.238 |          0 
+[I]    12 |     247934 |       1568 |       3424 |    0.182 |          0 
+[I]    15 |       3688 |          1 |          1 |    0.067 |          0 
+[I]    16 |       2196 |          0 |          0 |    0.000 |          0 
+[I] Total number of wires is 24,789,425
+[I] Printing layer congestion
+[I] Timer: Start: Save occupancy
+[I] Timer (1): End: Save occupancy : U(0:00:05): S(0:00:00): T(0:00:05) Elapsed(0:00:04)
+[I] /***********************************************/
+[I]  Total 0 miller violations for value 2.000000
+[I] ************After first iteration***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: Reports after iteration
+[I]  =100      447      447
+[I]  > 90      469      916
+[I]  > 80     1661     2577
+[I]  > 70     1840     4417
+[I]  > 60     5259     9676
+[I]  > 50     6157    15833
+[I]  > 40     8014    23847
+[I]  > 30     2188    26035
+[I]  > 20     6671    32706
+[I]  > 10     3377    36083
+[I]  >  0     1164    37247
+[I] Num Checked: 0 Num Detoured/Num-Critical: 0/0
+[I]  
+[I] Nets with the largest detour length:
+[I]   net 'DFTR_NET_10019': current length 421589, initial length 303159 (detour 118430, ratio 1.391)
+[I]   net 'DFTR_NET_2942': current length 332630, initial length 220805 (detour 111825, ratio 1.506)
+[I] Average detour for 10 worst length cases: 100025
+[I] Nets with the largest detour ratio:
+[I]   net 'LB_NET267_536': current length 30001, initial length 17579 (detour 12422, ratio 1.707)
+[I]   net '\mult_4_3/n74 ': current length 33444, initial length 19941 (detour 13503, ratio 1.677)
+[I] Average detour ratio for 10 worst ratio cases: 1.604
+[I] Final Routed Wire Length: 1500533
+[I]  
+[I] Nets with the largest detour length:
+[I]   net 'DFTR_NET_10019': current length 421589, initial length 303159 (detour 118430, ratio 1.391)
+[I]   net 'DFTR_NET_2942': current length 332630, initial length 220805 (detour 111825, ratio 1.506)
+[I] Average detour for 10 worst length cases: 100025
+[I] Nets with the largest detour ratio:
+[I]   net 'LB_NET267_536': current length 30001, initial length 17579 (detour 12422, ratio 1.707)
+[I]   net '\mult_4_3/n74 ': current length 33444, initial length 19941 (detour 13503, ratio 1.677)
+[I] Average detour ratio for 10 worst ratio cases: 1.604
+[I]  Total 0 miller violations for value 2.000000
+[I] ************After the last global router iteration***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Grouter Capacity DRC
+[I] Starting Histogram for netlength post routing
+[I] Destination To Source Delta Histogram
+[I] ---------------------------------------
+[I] < 10                  2656                
+[I] < 20                  4276                
+[I] < 40                  2737                
+[I] < 60                  939                 
+[I] < 100                 3862                
+[I] < 120                 103                 
+[I] < 140                 63                  
+[I] < 160                 19                  
+[I] < 200                 10                  
+[I] < 400                 5                   
+[I] > 400                 0                   
+[I] ---------------------------------------
+[I] Timer (1): End: Global Router : U(0:00:40): S(0:00:00): T(0:00:40) Elapsed(0:00:32)
+[I] Writing CSV file :/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/out//router_util.csv
+[I] Done writing CSV file: /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/out//router_util.csv
+[I] Writing CSV file :/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/out//router_shortutil.csv
+[I] Done writing CSV file: /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/out//router_shortutil.csv
+[I] Writing CSV file :/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/out//router_pins.csv
+[I] Done writing CSV file: /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/out//router_pins.csv
+[I] End: Global Route: Deleting Data
+[I] ************After Grouting***********
+[I] Memory: RSS size:                       1,781,202,944 b (   1,698 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  History was saved to file /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/work/filtered_netlist0.incr.history
+[I] End: cleanup the global router data
+[I] Starting netlist preparation
+[I] Number of routed constant nets, gnd: 0 , power: 0
+[I] Finished netlist preparation
+[I] Number of channels is 10640743
+[I] Checking physical channels (fibs 13491259, chans 10640743)
+[I] ************before testForLoops:chans***********
+[I] Memory: RSS size:                       1,787,142,144 b (   1,704 MB)
+[I] Memory: in use by OA:                      10,859,446 b (      10 MB)
+[I] ************after testForLoops:chans***********
+[I] Memory: RSS size:                       1,787,142,144 b (   1,704 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Finished checking physical channels
+[I] Maximal channel length is 2321
+[I]  CrossTalkAssignmentType:  1
+[I]  CrossTalkAssignmentCosts: 100:30 (CriticalityWeight:BoundaryWeight)
+[I] ************After Creating detail router, before executing detail router***********
+[I] Memory: RSS size:                       1,787,142,144 b (   1,704 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Start: Detailed Route
+[I] ************Before Drouting***********
+[I] Memory: RSS size:                       1,787,142,144 b (   1,704 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I]  RunSegmentDistribution:  True
+[I]  SwapSegmentDistribution: True
+[I] Timer: Start: Detail Router
+[I] Running regular LE detail router
+[I] ************le_drouter: before route_me***********
+[I] Memory: RSS size:                       1,787,142,144 b (   1,704 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: timing detail route starts
+[I] Timer: Start creation routing channels
+[I] ************segnetwork: before creating seg lines***********
+[I] Memory: RSS size:                       1,787,142,144 b (   1,704 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] ************segnetwork: after creating seg lines***********
+[I] Memory: RSS size:                       1,787,142,144 b (   1,704 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer (1): End creation routing channels : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] Timer: Start routing channels
+[I] Start routing
+[I] Timer (1): End routing channels : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I]  Routed 9694 of 10640743 channels
+[I]  cost for internal critical nets                 0
+[I]  cost for boundary critical nets                 0
+[I]  total cost for critical nets                    0
+[I] Deleting 35297 SegChannels
+[I] ************le_drouter: after route_me***********
+[I] Memory: RSS size:                       1,787,142,144 b (   1,704 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Detailed routing successful
+[I] Timer (1): timing detail route ends : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] Finished running regular LE detail router
+[I] ************drouter: before doDrc***********
+[I] Memory: RSS size:                       1,787,142,144 b (   1,704 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer: Start: checkRoutingDrc
+[I] DRC planar track: Tracks match accross planar boxes
+[I] Detailed router DRC1 successful!
+[I] Timer (1): End: checkRoutingDrc : U(0:00:00): S(0:00:00): T(0:00:00) Elapsed(0:00:00)
+[I] ************drouter: after doDrc***********
+[I] Memory: RSS size:                       1,895,223,296 b (   1,807 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Timer (1): End: Detail Router : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] End: Detailed Route
+[I] ************After Drouting***********
+[I] Memory: RSS size:                       1,895,223,296 b (   1,807 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] ************After executing detail router, before deleting detail router***********
+[I] Memory: RSS size:                       1,895,223,296 b (   1,807 MB)
+[I] Memory: in use by OA:                      10,825,030 b (      10 MB)
+[I] Writing Routing output to '/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/work/filtered_netlist0.incr'
+[I] Timer: Start writing incremental routing file
+[I] Setting netlist id 1902101133
+[I] Timer (1): End writing incremental routing file : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] Deleting 0 SegChannels
+[I] ************After deleting detail router***********
+[I] Memory: RSS size:                       1,895,223,296 b (   1,807 MB)
+[I] Memory: in use by OA:                      11,875,714 b (      11 MB)
+[I] Timer: Start Shielding
+[I] ************Before shielding***********
+[I] Memory: RSS size:                       1,895,223,296 b (   1,807 MB)
+[I] Memory: in use by OA:                      10,827,026 b (      10 MB)
+[I] Start: Shielding User Requested Nets
+[I] Box step 11200
+[I] Number cols=339, number rows=397
+[I] Num of all boxes is 134583
+[I] Shielding User Specified Nets only. No Flooding
+[I] Number of original signal trees is 11028
+[I] Counting hot and cold boxes
+[I] Mesh: Num boxes: total 134583, hot, 0, cold 134583
+[I] Mesh: Num fibers: total 13491259, hot 0, cold 13491259
+[I]  Collected 1187516 strong gnd pins
+[I] Shielding created: 0 vias + 0 pin shapes = 0 total shapes
+[I] ************After shielding***********
+[I] Memory: RSS size:                       1,895,223,296 b (   1,807 MB)
+[I] Memory: in use by OA:                      10,827,026 b (      10 MB)
+[I] Timer (1): End Shielding : U(0:00:01): S(0:00:00): T(0:00:01) Elapsed(0:00:01)
+[I] ************Before writing routing***********
+[I] Memory: RSS size:                       1,895,223,296 b (   1,807 MB)
+[I] Memory: in use by OA:                      10,827,026 b (      10 MB)
+[I] Writing rtdb file '/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/work/ar_logical.rtdb' with model version 'n3xst150f__Nov__4_2016_06_35_51__6387591959575611659', netlist id 1902101133
+[I] Number of Routing to write: 11733
+
+[I] Writing rtdb file with fabric version 'n3xst150f__Nov__4_2016_06_35_51__6387591959575611659'
+[I] Regular Writing begin
+[I] Regular Writing end, wrote 148125 reg, 0 par vias
+[I] Direct gnd writing begin
+[I] Direct gnd writing end, wrote 1454 reg, 0 par vias
+[I] Shield writing begin
+[I] Shield writing end, wrote 0 reg, 0 par vias
+[I] ************After writing routing***********
+[I] Memory: RSS size:                       1,895,223,296 b (   1,807 MB)
+[I] Memory: in use by OA:                      11,875,714 b (      11 MB)
+[I] Writing signoff report
+[I]       lib 'techlib'
+[I] Start marking routed nets
+[I] End marking 11028 routed nets
+[I] Clean up temporary properties
+[I] Writing ECO buffering nets to file '/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/work/filtered_netlist0.incr.eco.rpt'
+[I] Memory used:   1.8 Gb
+[I] Timer (1): Ending router: routed : U(0:00:50): S(0:00:00): T(0:00:50) Elapsed(0:00:43)
+[I] >>> database save --lib=UserDesign --cell=ar --view=filtered_netlist0 
+[I] >>> fabric free 
+[I] ************Before 'fabric free'***********
+[I] Memory: RSS size:                       1,899,024,384 b (   1,811 MB)
+[I] Memory: in use by OA:                      12,439,602 b (      11 MB)
+[I] ************After delete FiberDB***********
+[I] Memory: RSS size:                       1,899,024,384 b (   1,811 MB)
+[I] Memory: in use by OA:                      11,117,442 b (      10 MB)
+[I] ************After delete PhysDevice***********
+[I] Memory: RSS size:                       1,899,024,384 b (   1,811 MB)
+[I] Memory: in use by OA:                      11,117,442 b (      10 MB)
+[I] ************After delete FiberCorunDB***********
+[I] Memory: RSS size:                       1,899,024,384 b (   1,811 MB)
+[I] Memory: in use by OA:                      11,117,442 b (      10 MB)
+[I] ************After 'fabric free'***********
+[I] Memory: RSS size:                       1,899,024,384 b (   1,811 MB)
+[I] Memory: in use by OA:                      11,117,442 b (      10 MB)
+[I] >>> database free 
+[I] Closing Design Library
+[I] >>> logging detach file /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/log/erouter.log 

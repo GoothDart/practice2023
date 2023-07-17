@@ -1,0 +1,897 @@
+INFO: Using design_libs files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs as specified by envar ETOOLS_DESIGN_LIBS
+INFO: Using ip_lib files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib as specified by envar ETOOLS_IP_LIB
+INFO: Loading eASIC`s 'DC Hierarchical Area Report' service script done.
+INFO: Using design_libs files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs as specified by envar ETOOLS_DESIGN_LIBS
+INFO: Local Settings File project_local.tcl (not provided)
+INFO: Using default operating corner (dc_corner) "ss"
+INFO: User specified DC-Ultra(dc_use_ultra=1), license checkout success
+INFO: Reading/Using  DB Libraries for Corner: ss 0v807ssn40c
+Info : Library    DB n3xs_phys_ecellc_0v807ssn40c   found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_efac_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_logic_dcmisc              found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/dc/timing/np
+Info : Library    DB n3xs_phys_edff_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_clk_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_bram_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_core_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_corner_0v807ssn40c   found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_nw_0v807ssn40c       found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_otp_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_logic_eio_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_eio_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_sys_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_m16gp_0v807ssn40c    found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_m28gp_0v807ssn40c    found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+INFO: Target library  : n3xs_phys_ecellc_0v807ssn40c.db n3xs_phys_efac_0v807ssn40c.db n3xs_logic_dcmisc.db n3xs_phys_edff_0v807ssn40c.db n3xs_phys_clk_0v807ssn40c.db n3xs_phys_bram_0v807ssn40c.db n3xs_phys_core_0v807ssn40c.db n3xs_phys_corner_0v807ssn40c.db n3xs_phys_nw_0v807ssn40c.db n3xs_phys_otp_0v807ssn40c.db n3xs_logic_eio_0v807ssn40c.db n3xs_phys_eio_0v807ssn40c.db n3xs_phys_sys_0v807ssn40c.db n3xs_phys_m16gp_0v807ssn40c.db n3xs_phys_m28gp_0v807ssn40c.db
+INFO: Link library    : * n3xs_phys_ecellc_0v807ssn40c.db n3xs_phys_efac_0v807ssn40c.db n3xs_logic_dcmisc.db n3xs_phys_edff_0v807ssn40c.db n3xs_phys_clk_0v807ssn40c.db n3xs_phys_bram_0v807ssn40c.db n3xs_phys_core_0v807ssn40c.db n3xs_phys_corner_0v807ssn40c.db n3xs_phys_nw_0v807ssn40c.db n3xs_phys_otp_0v807ssn40c.db n3xs_logic_eio_0v807ssn40c.db n3xs_phys_eio_0v807ssn40c.db n3xs_phys_sys_0v807ssn40c.db n3xs_phys_m16gp_0v807ssn40c.db n3xs_phys_m28gp_0v807ssn40c.db dw_foundation.sldb standard.sldb
+INFO: Using predefined IP LIB location set to /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib
+INFO: Filtering IP (Basic Blocks: Re/Syncronizers : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/basic/resync
+INFO: Filtering IP (Basic Blocks: Configurable Clock Divider : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/basic/clkdiv
+INFO: Filtering IP (Common Port Configurator for All Memory Types : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/common
+INFO: Filtering IP (bRAM Dual True Dual Port Array(2RW) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_dp
+INFO: Filtering IP (bRAM Simple Dual Port Array (1R1W) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_sdp
+INFO: Filtering IP (bRAM Single Port Array (1RW) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_sp
+INFO: Filtering IP (bRAM Double/Quad Pumped Arrays : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_pump
+INFO: Filtering IP (bROM Dual Port Array (2R) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/brom_dp
+INFO: Filtering IP (bROM Single Port Array (1R) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/brom_sp
+INFO: Filtering IP (Register File True Dual Port Array (2RW) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_dp
+INFO: Filtering IP (Register File Simple Dual Port Array (1R1W) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sdp
+INFO: Filtering IP (Register File Single Port Array (1RW) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sp
+INFO: Filtering IP (hRAM (Hybrid Ram: bRAM + rFile) Dual Port Array (2RW) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_dp
+INFO: Filtering IP (hRAM (Hybrid Ram: bRAM + rFile) Simpe Dual Port Array (1R1W) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_sdp
+INFO: Filtering IP (FF Based True DualPort Array Backend RAM(2RW) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_base
+INFO: Filtering IP (FF Based Simple DualPort Array(1R1W) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_sdp
+INFO: Filtering IP (FF Based True DualPort Array(2RW) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_tdp
+INFO: Filtering IP (Single Clock FIFO : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/scfifo
+INFO: Filtering IP (Dual Clock FIFO : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dcfifo
+INFO: Filtering IP (Set of Simplified Memory Wrappers : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem
+INFO: Filtering IP (AFPGA Compliant Memory Generator : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/syncram
+INFO: Filtering IP (AFPGA Compliant Shift Taps : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/shift_taps
+INFO: Filtering IP (AFPGA Compliant Single Clock FIFO : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/scfifo
+INFO: Filtering IP (AFPGA Compliant Dual Clock FIFO : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/dcfifo
+INFO: Filtering IP (MGIO Wrappers : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers
+INFO: Filtering IP (MGIO APB Blocks : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/apb
+INFO: Filtering IP (MGIO Auxiliary Blocks : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/auxiliary
+INFO: Filtering IP (MGIO Configware : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/configware
+INFO: Filtering IP (MGIO Initware : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware
+INFO: Filtering IP (MGIO Memory Array : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/memarray
+INFO: Filtering IP (MGIO Calibration Blocks : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/rcal
+INFO: Filtering IP (Single Ended IO Pad : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/pads
+INFO: Filtering IP (IO Pad Calibraion logic (RCAL) and APB Slave to RCAL : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/rcal
+INFO: Filtering IP (Differential IO Pad : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/diffpads
+INFO: Filtering IP (Double Data Rate Delay Locked Loop Generator (DDR DLL) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/edelaygenddr
+INFO: Filtering IP (Delay Locked Loop Generator (MP DLL) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/edelaygenmp
+INFO: Filtering IP (Clock Generator (General Purpose PLL) : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen
+INFO: Filtering IP (Corner Block Generic Wrapper : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/ecornerblock
+INFO: Filtering IP (Generic Serializer/Deserializer : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/phys/serdes
+INFO: Filtering IP (XFPGA Compliant Dual Clock FIFO : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/dcfifo
+INFO: Filtering IP (XFPGA Compliant DDR IO Logic : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/ddr
+INFO: Filtering IP (XFPGA Compliant Memory Generator : verilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/memory
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_syncrst.v eip_n3xs_resync.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_mem_oe_gen.v eip_n3xs_mem_regout_merge.v eip_n3xs_mem_inst_port_config.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_bram_inst.v eip_n3xs_bram_array.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_bram_sdp_array.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_bram_sp_array.v eip_n3xs_bram_sp_inst.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_bram_dblpump_array.v eip_n3xs_bram_quadpump_array.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_brom_array.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_brom_sp_array.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_rfile_inst.v eip_n3xs_rfile_array.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_rfile_sdp_array.v eip_n3xs_rfile_sdp_inst.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_rfile_sp_array.v eip_n3xs_rfile_sp_inst.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_hram_array.v eip_n3xs_hram_inst.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_hram_sdp_inst.v eip_n3xs_hram_sdp_array.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_scfifo.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_dcfifo.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_simplemem_rw_rw.v eip_n3xs_simplemem_rw_r.v eip_n3xs_simplemem_w_r.v eip_n3xs_simplemem_w_a_a.v eip_n3xs_simplemem_w_a.v eip_n3xs_simplemem_w_r_r.v eip_n3xs_simplemem_rw.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_afpga_syncram.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_afpga_shift_taps.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_afpga_scfifo.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_afpga_dcfifo.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_mgio_clock_mux2.v eip_n3xs_mgio_phfifo.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_mgio_configware_sdp.v eip_n3xs_mgio_configware_tdp.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_mgio28g_pma_memarray.v eip_n3xs_mgio16g_pma_memarray.v eip_n3xs_mgio_apb_memarray.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_eio_vrefcalpad.v eip_n3xs_eio_pad_std.v eip_n3xs_eio_pad.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_eio_diffpad.v eip_n3xs_eio_diffpad_std.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_edelaygenddr.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_edelaygenmp.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_eclkgen_hysteresis.v eip_n3xs_eclkgen_urst_sniffer.v eip_n3xs_eclkgen_cfg_arbiter.v eip_n3xs_eclkgen_scm.v eip_n3xs_eclkgen.v eip_n3xs_eclkgen_flock.v eip_n3xs_eclkgen_counter.v eip_n3xs_eclkgen_phaseshift.v eip_n3xs_eclkgen_dynrst.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_cornerblockwrapper.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_serializer.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_xfpga_dcfifo_as.v eip_n3xs_xfpga_dcfifo.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_xfpga_oddr.v eip_n3xs_xfpga_iddr.v
+INFO: Appending  IP Sources  (verilog)  => eip_n3xs_xfpga_gen.v
+INFO: Using predefined IP LIB location set to /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib
+INFO: Filtering IP (Basic Blocks: Re/Syncronizers : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/basic/resync
+INFO: Filtering IP (Basic Blocks: Configurable Clock Divider : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/basic/clkdiv
+INFO: Filtering IP (Common Port Configurator for All Memory Types : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/common
+INFO: Filtering IP (bRAM Dual True Dual Port Array(2RW) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_dp
+INFO: Filtering IP (bRAM Simple Dual Port Array (1R1W) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_sdp
+INFO: Filtering IP (bRAM Single Port Array (1RW) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_sp
+INFO: Filtering IP (bRAM Double/Quad Pumped Arrays : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_pump
+INFO: Filtering IP (bROM Dual Port Array (2R) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/brom_dp
+INFO: Filtering IP (bROM Single Port Array (1R) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/brom_sp
+INFO: Filtering IP (Register File True Dual Port Array (2RW) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_dp
+INFO: Filtering IP (Register File Simple Dual Port Array (1R1W) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sdp
+INFO: Filtering IP (Register File Single Port Array (1RW) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sp
+INFO: Filtering IP (hRAM (Hybrid Ram: bRAM + rFile) Dual Port Array (2RW) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_dp
+INFO: Filtering IP (hRAM (Hybrid Ram: bRAM + rFile) Simpe Dual Port Array (1R1W) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_sdp
+INFO: Filtering IP (FF Based True DualPort Array Backend RAM(2RW) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_base
+INFO: Filtering IP (FF Based Simple DualPort Array(1R1W) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_sdp
+INFO: Filtering IP (FF Based True DualPort Array(2RW) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_tdp
+INFO: Filtering IP (Single Clock FIFO : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/scfifo
+INFO: Filtering IP (Dual Clock FIFO : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dcfifo
+INFO: Filtering IP (Set of Simplified Memory Wrappers : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem
+INFO: Filtering IP (AFPGA Compliant Memory Generator : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/syncram
+INFO: Filtering IP (AFPGA Compliant Shift Taps : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/shift_taps
+INFO: Filtering IP (AFPGA Compliant Single Clock FIFO : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/scfifo
+INFO: Filtering IP (AFPGA Compliant Dual Clock FIFO : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/dcfifo
+INFO: Filtering IP (MGIO Wrappers : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers
+INFO: Filtering IP (MGIO APB Blocks : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/apb
+INFO: Filtering IP (MGIO Auxiliary Blocks : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/auxiliary
+INFO: Filtering IP (MGIO Configware : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/configware
+INFO: Filtering IP (MGIO Initware : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware
+INFO: Filtering IP (MGIO Memory Array : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/memarray
+INFO: Filtering IP (MGIO Calibration Blocks : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/rcal
+INFO: Filtering IP (Single Ended IO Pad : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/pads
+INFO: Filtering IP (IO Pad Calibraion logic (RCAL) and APB Slave to RCAL : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/rcal
+INFO: Filtering IP (Differential IO Pad : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/diffpads
+INFO: Filtering IP (Double Data Rate Delay Locked Loop Generator (DDR DLL) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/edelaygenddr
+INFO: Filtering IP (Delay Locked Loop Generator (MP DLL) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/edelaygenmp
+INFO: Filtering IP (Clock Generator (General Purpose PLL) : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen
+INFO: Filtering IP (Corner Block Generic Wrapper : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/ecornerblock
+INFO: Filtering IP (Generic Serializer/Deserializer : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/phys/serdes
+INFO: Filtering IP (XFPGA Compliant Dual Clock FIFO : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/dcfifo
+INFO: Filtering IP (XFPGA Compliant DDR IO Logic : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/ddr
+INFO: Filtering IP (XFPGA Compliant Memory Generator : sverilog): /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/memory
+INFO: Appending  IP Sources  (sverilog)  => eip_n3xs_clkdiv.sv
+INFO: Appending  IP Sources  (sverilog)  => eip_n3xs_dff_array_base.sv
+INFO: Appending  IP Sources  (sverilog)  => eip_n3xs_dff_sdp_array.sv
+INFO: Appending  IP Sources  (sverilog)  => eip_n3xs_dff_tdp_array.sv
+INFO: Appending  IP Sources  (sverilog)  => eip_n3xs_mgio16g_pma.sv eip_n3xs_mgio28g_pma.sv eip_n3xs_mgio16g_pma_wrapper.sv eip_n3xs_mgio28g_pma_wrapper.sv
+INFO: Appending  IP Packages (sverilog)  => eip_n3xs_mgio_pkg.sv
+INFO: Appending  IP Sources  (sverilog)  => eip_n3xs_mgio_apb_mux.sv eip_n3xs_mgio_apb_arbiter.sv eip_n3xs_mgio_apb2reg.sv
+INFO: Appending  IP Sources  (sverilog)  => eip_n3xs_mgio_configware.sv
+INFO: Appending  IP Sources  (sverilog)  => eip_n3xs_mgio_initware_ln_cmn.sv eip_n3xs_mgio_initware_ln_rx_eq.sv eip_n3xs_mgio_initware_ln_tx.sv eip_n3xs_mgio_initware.sv eip_n3xs_mgio_initware_qd.sv eip_n3xs_mgio_initware_ln_rx.sv eip_n3xs_mgio_initware_ln_rx_pm.sv
+INFO: Appending  IP Sources  (sverilog)  => eip_n3xs_mgio_rcal_init.sv eip_n3xs_mgio_rcal.sv
+INFO: Appending  IP Sources  (sverilog)  => eip_n3xs_eio_rcal_pad_apb.sv eip_n3xs_eio_rcal_pad.sv
+INFO: Appending  IP Includes (sverilog)  => /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/include/sverilog
+INFO: Using predefined IP LIB location set to /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib
+INFO: Using predefined IP LIB location set to /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib
+INFO: Using predefined IP LIB location set to /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib
+INFO: Using predefined IP LIB location set to /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib
+***********************************
+Read, analyze, and link start time
+Fri Mar 15 15:58:03 MSK 2019
+***********************************
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/basic/resync/src/rtl/verilog/eip_n3xs_syncrst.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/basic/resync/src/rtl/verilog/eip_n3xs_resync.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/common/src/rtl/verilog/eip_n3xs_mem_oe_gen.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/common/src/rtl/verilog/eip_n3xs_mem_regout_merge.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/common/src/rtl/verilog/eip_n3xs_mem_inst_port_config.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_dp/src/rtl/verilog/eip_n3xs_bram_inst.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_dp/src/rtl/verilog/eip_n3xs_bram_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_sdp/src/rtl/verilog/eip_n3xs_bram_sdp_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_sp/src/rtl/verilog/eip_n3xs_bram_sp_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_sp/src/rtl/verilog/eip_n3xs_bram_sp_inst.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_pump/src/rtl/verilog/eip_n3xs_bram_dblpump_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_pump/src/rtl/verilog/eip_n3xs_bram_quadpump_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/brom_dp/src/rtl/verilog/eip_n3xs_brom_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/brom_sp/src/rtl/verilog/eip_n3xs_brom_sp_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_dp/src/rtl/verilog/eip_n3xs_rfile_inst.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_dp/src/rtl/verilog/eip_n3xs_rfile_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sdp/src/rtl/verilog/eip_n3xs_rfile_sdp_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sdp/src/rtl/verilog/eip_n3xs_rfile_sdp_inst.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sp/src/rtl/verilog/eip_n3xs_rfile_sp_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sp/src/rtl/verilog/eip_n3xs_rfile_sp_inst.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_dp/src/rtl/verilog/eip_n3xs_hram_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_dp/src/rtl/verilog/eip_n3xs_hram_inst.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_sdp/src/rtl/verilog/eip_n3xs_hram_sdp_inst.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_sdp/src/rtl/verilog/eip_n3xs_hram_sdp_array.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/scfifo/src/rtl/verilog/eip_n3xs_scfifo.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dcfifo/src/rtl/verilog/eip_n3xs_dcfifo.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_rw_rw.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_rw_r.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_w_r.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_w_a_a.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_w_a.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_w_r_r.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_rw.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/syncram/src/rtl/verilog/eip_n3xs_afpga_syncram.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/shift_taps/src/rtl/verilog/eip_n3xs_afpga_shift_taps.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/scfifo/src/rtl/verilog/eip_n3xs_afpga_scfifo.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/dcfifo/src/rtl/verilog/eip_n3xs_afpga_dcfifo.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/auxiliary/src/rtl/verilog/eip_n3xs_mgio_clock_mux2.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/auxiliary/src/rtl/verilog/eip_n3xs_mgio_phfifo.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/configware/src/rtl/verilog/eip_n3xs_mgio_configware_sdp.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/configware/src/rtl/verilog/eip_n3xs_mgio_configware_tdp.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/memarray/src/rtl/verilog/eip_n3xs_mgio28g_pma_memarray.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/memarray/src/rtl/verilog/eip_n3xs_mgio16g_pma_memarray.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/memarray/src/rtl/verilog/eip_n3xs_mgio_apb_memarray.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/pads/src/rtl/verilog/eip_n3xs_eio_vrefcalpad.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/pads/src/rtl/verilog/eip_n3xs_eio_pad_std.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/pads/src/rtl/verilog/eip_n3xs_eio_pad.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/diffpads/src/rtl/verilog/eip_n3xs_eio_diffpad.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/diffpads/src/rtl/verilog/eip_n3xs_eio_diffpad_std.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/edelaygenddr/src/rtl/verilog/eip_n3xs_edelaygenddr.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/edelaygenmp/src/rtl/verilog/eip_n3xs_edelaygenmp.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_hysteresis.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_urst_sniffer.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_cfg_arbiter.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_scm.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_flock.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_counter.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_phaseshift.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_dynrst.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/ecornerblock/src/rtl/verilog/eip_n3xs_cornerblockwrapper.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/phys/serdes/src/rtl/verilog/eip_n3xs_serializer.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/dcfifo/src/rtl/verilog/eip_n3xs_xfpga_dcfifo_as.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/dcfifo/src/rtl/verilog/eip_n3xs_xfpga_dcfifo.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/ddr/src/rtl/verilog/eip_n3xs_xfpga_oddr.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/ddr/src/rtl/verilog/eip_n3xs_xfpga_iddr.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/memory/src/rtl/verilog/eip_n3xs_xfpga_gen.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/sim/verilog/n3xs_logic_eio_wrapper.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/sim/verilog/n3xs_phys_sys_wrapper.v
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/sim/verilog/n3xs_phys_core_wrapper.v
+Running PRESTO HDLC
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/basic/resync/src/rtl/verilog/eip_n3xs_syncrst.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/basic/resync/src/rtl/verilog/eip_n3xs_resync.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/common/src/rtl/verilog/eip_n3xs_mem_oe_gen.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/common/src/rtl/verilog/eip_n3xs_mem_regout_merge.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/common/src/rtl/verilog/eip_n3xs_mem_inst_port_config.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_dp/src/rtl/verilog/eip_n3xs_bram_inst.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_dp/src/rtl/verilog/eip_n3xs_bram_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_sdp/src/rtl/verilog/eip_n3xs_bram_sdp_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_sp/src/rtl/verilog/eip_n3xs_bram_sp_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_sp/src/rtl/verilog/eip_n3xs_bram_sp_inst.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_pump/src/rtl/verilog/eip_n3xs_bram_dblpump_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/bram_pump/src/rtl/verilog/eip_n3xs_bram_quadpump_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/brom_dp/src/rtl/verilog/eip_n3xs_brom_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/brom_sp/src/rtl/verilog/eip_n3xs_brom_sp_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_dp/src/rtl/verilog/eip_n3xs_rfile_inst.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_dp/src/rtl/verilog/eip_n3xs_rfile_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sdp/src/rtl/verilog/eip_n3xs_rfile_sdp_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sdp/src/rtl/verilog/eip_n3xs_rfile_sdp_inst.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sp/src/rtl/verilog/eip_n3xs_rfile_sp_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/rfile_sp/src/rtl/verilog/eip_n3xs_rfile_sp_inst.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_dp/src/rtl/verilog/eip_n3xs_hram_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_dp/src/rtl/verilog/eip_n3xs_hram_inst.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_sdp/src/rtl/verilog/eip_n3xs_hram_sdp_inst.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/hram_sdp/src/rtl/verilog/eip_n3xs_hram_sdp_array.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/scfifo/src/rtl/verilog/eip_n3xs_scfifo.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dcfifo/src/rtl/verilog/eip_n3xs_dcfifo.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_rw_rw.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_rw_r.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_w_r.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_w_a_a.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_w_a.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_w_r_r.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/simplemem/src/rtl/verilog/eip_n3xs_simplemem_rw.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/syncram/src/rtl/verilog/eip_n3xs_afpga_syncram.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/shift_taps/src/rtl/verilog/eip_n3xs_afpga_shift_taps.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/scfifo/src/rtl/verilog/eip_n3xs_afpga_scfifo.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/afpga/dcfifo/src/rtl/verilog/eip_n3xs_afpga_dcfifo.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/auxiliary/src/rtl/verilog/eip_n3xs_mgio_clock_mux2.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/auxiliary/src/rtl/verilog/eip_n3xs_mgio_phfifo.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/configware/src/rtl/verilog/eip_n3xs_mgio_configware_sdp.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/configware/src/rtl/verilog/eip_n3xs_mgio_configware_tdp.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/memarray/src/rtl/verilog/eip_n3xs_mgio28g_pma_memarray.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/memarray/src/rtl/verilog/eip_n3xs_mgio16g_pma_memarray.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/memarray/src/rtl/verilog/eip_n3xs_mgio_apb_memarray.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/pads/src/rtl/verilog/eip_n3xs_eio_vrefcalpad.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/pads/src/rtl/verilog/eip_n3xs_eio_pad_std.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/pads/src/rtl/verilog/eip_n3xs_eio_pad.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/diffpads/src/rtl/verilog/eip_n3xs_eio_diffpad.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/diffpads/src/rtl/verilog/eip_n3xs_eio_diffpad_std.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/edelaygenddr/src/rtl/verilog/eip_n3xs_edelaygenddr.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/edelaygenmp/src/rtl/verilog/eip_n3xs_edelaygenmp.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_hysteresis.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_urst_sniffer.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_cfg_arbiter.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_scm.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_flock.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_counter.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_phaseshift.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/eclkgen/src/rtl/verilog/eip_n3xs_eclkgen_dynrst.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/sys/ecornerblock/src/rtl/verilog/eip_n3xs_cornerblockwrapper.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/phys/serdes/src/rtl/verilog/eip_n3xs_serializer.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/dcfifo/src/rtl/verilog/eip_n3xs_xfpga_dcfifo_as.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/dcfifo/src/rtl/verilog/eip_n3xs_xfpga_dcfifo.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/ddr/src/rtl/verilog/eip_n3xs_xfpga_oddr.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/ddr/src/rtl/verilog/eip_n3xs_xfpga_iddr.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/xfpga/memory/src/rtl/verilog/eip_n3xs_xfpga_gen.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/sim/verilog/n3xs_logic_eio_wrapper.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/sim/verilog/n3xs_phys_sys_wrapper.v
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/sim/verilog/n3xs_phys_core_wrapper.v
+Presto compilation completed successfully.
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/dc/timing/np/n3xs_logic_dcmisc.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_edff_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_clk_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_bram_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_core_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_corner_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_nw_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_otp_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_logic_eio_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_eio_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_sys_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m16gp_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m28gp_0v807ssn40c.db'
+Loading db file '/easic/tools/synopsys/syn/latest/libraries/syn/dw_foundation.sldb'
+Loading db file '/easic/tools/synopsys/syn/latest/libraries/syn/standard.sldb'
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio_pkg.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/basic/clkdiv/src/rtl/sverilog/eip_n3xs_clkdiv.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_base/src/rtl/sverilog/eip_n3xs_dff_array_base.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_sdp/src/rtl/sverilog/eip_n3xs_dff_sdp_array.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_tdp/src/rtl/sverilog/eip_n3xs_dff_tdp_array.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio16g_pma.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio28g_pma.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio16g_pma_wrapper.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio28g_pma_wrapper.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/apb/src/rtl/sverilog/eip_n3xs_mgio_apb_mux.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/apb/src/rtl/sverilog/eip_n3xs_mgio_apb_arbiter.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/apb/src/rtl/sverilog/eip_n3xs_mgio_apb2reg.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/configware/src/rtl/sverilog/eip_n3xs_mgio_configware.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_ln_cmn.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_ln_rx_eq.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_ln_tx.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_qd.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_ln_rx.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_ln_rx_pm.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/rcal/src/rtl/sverilog/eip_n3xs_mgio_rcal_init.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/rcal/src/rtl/sverilog/eip_n3xs_mgio_rcal.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/rcal/src/rtl/sverilog/eip_n3xs_eio_rcal_pad_apb.sv
+SCH-100: Search Path Found File /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/rcal/src/rtl/sverilog/eip_n3xs_eio_rcal_pad.sv
+Running PRESTO HDLC
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio_pkg.sv
+Warning:  /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio_pkg.sv:1: The package eip_n3xs_mgio_pkg has already been analyzed. It is being replaced. (VER-26)
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/basic/clkdiv/src/rtl/sverilog/eip_n3xs_clkdiv.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_base/src/rtl/sverilog/eip_n3xs_dff_array_base.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_sdp/src/rtl/sverilog/eip_n3xs_dff_sdp_array.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/memory/dff_tdp/src/rtl/sverilog/eip_n3xs_dff_tdp_array.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio16g_pma.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio28g_pma.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio16g_pma_wrapper.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/wrappers/src/rtl/sverilog/eip_n3xs_mgio28g_pma_wrapper.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/apb/src/rtl/sverilog/eip_n3xs_mgio_apb_mux.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/apb/src/rtl/sverilog/eip_n3xs_mgio_apb_arbiter.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/apb/src/rtl/sverilog/eip_n3xs_mgio_apb2reg.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/configware/src/rtl/sverilog/eip_n3xs_mgio_configware.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_ln_cmn.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_ln_rx_eq.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_ln_tx.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_qd.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_ln_rx.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/initware/src/rtl/sverilog/eip_n3xs_mgio_initware_ln_rx_pm.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/rcal/src/rtl/sverilog/eip_n3xs_mgio_rcal_init.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/mgio/rcal/src/rtl/sverilog/eip_n3xs_mgio_rcal.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/rcal/src/rtl/sverilog/eip_n3xs_eio_rcal_pad_apb.sv
+Compiling source file /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/rcal/src/rtl/sverilog/eip_n3xs_eio_rcal_pad.sv
+Warning:  /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/rcal/src/rtl/sverilog/eip_n3xs_eio_rcal_pad.sv:45: Using default enum base size of 32. (VER-533)
+Warning:  /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib/io/rcal/src/rtl/sverilog/eip_n3xs_eio_rcal_pad.sv:130: Using default enum base size of 32. (VER-533)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/src/ar.v
+Presto compilation completed successfully.
+Loading db file '/easic/tools/synopsys/syn/latest/libraries/syn/gtech.db'
+  Loading link library 'n3xs_phys_ecellc_0v807ssn40c'
+  Loading link library 'n3xs_phys_efac_0v807ssn40c'
+  Loading link library 'n3xs_logic_dcmisc'
+  Loading link library 'n3xs_phys_edff_0v807ssn40c'
+  Loading link library 'n3xs_phys_clk_0v807ssn40c'
+  Loading link library 'n3xs_phys_bram_0v807ssn40c'
+  Loading link library 'n3xs_phys_core_0v807ssn40c'
+  Loading link library 'n3xs_phys_corner_0v807ssn40c'
+  Loading link library 'n3xs_phys_nw_0v807ssn40c'
+  Loading link library 'n3xs_phys_otp_0v807ssn40c'
+  Loading link library 'n3xs_logic_eio_0v807ssn40c'
+  Loading link library 'n3xs_phys_eio_0v807ssn40c'
+  Loading link library 'n3xs_phys_sys_0v807ssn40c'
+  Loading link library 'n3xs_phys_m16gp_0v807ssn40c'
+  Loading link library 'n3xs_phys_m28gp_0v807ssn40c'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'ar'.
+
+  Linking design 'ar'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  ar                          /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/rundir/synthesis/ar.db
+  n3xs_phys_ecellc_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db
+  n3xs_phys_efac_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db
+  n3xs_logic_dcmisc (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/dc/timing/np/n3xs_logic_dcmisc.db
+  n3xs_phys_edff_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_edff_0v807ssn40c.db
+  n3xs_phys_clk_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_clk_0v807ssn40c.db
+  n3xs_phys_bram_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_bram_0v807ssn40c.db
+  n3xs_phys_core_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_core_0v807ssn40c.db
+  n3xs_phys_corner_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_corner_0v807ssn40c.db
+  n3xs_phys_nw_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_nw_0v807ssn40c.db
+  n3xs_phys_otp_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_otp_0v807ssn40c.db
+  n3xs_logic_eio_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_logic_eio_0v807ssn40c.db
+  n3xs_phys_eio_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_eio_0v807ssn40c.db
+  n3xs_phys_sys_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_sys_0v807ssn40c.db
+  n3xs_phys_m16gp_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m16gp_0v807ssn40c.db
+  n3xs_phys_m28gp_0v807ssn40c (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m28gp_0v807ssn40c.db
+  dw_foundation.sldb (library) /easic/tools/synopsys/syn/latest/libraries/syn/dw_foundation.sldb
+
+INFO: Marking vreftune_top_on/VREF as dont_touch
+INFO: Marking vreftunebsc_act/A* as dont_touch
+INFO: Start Preserving semi-intrinsic MTX connectivity...
+INFO: Done Preserving semi-intrinsic MTX connectivity.
+INFO: Bypass Constraining Periphery Input Buffer connections.
+INFO: Bypass Constraining the PLL and its related logic/network. (No PLL found within Design).
+INFO: Bypass Constraining the CORNER BLOCK and its related logic/network. (No CORNER BLOCK found within Design).
+Writing verilog file '/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/rundir/synthesis/out/ar_elaborate.v_nodefparams'.
+INFO: Adding defparams to the Verilog file
+Writing ddc file './dc_out/ar_elaborate.ddc'.
+
+Id             Severity         Limit    Occurrences   Suppressed
+--------------------------------------------------------------------
+DCSH-18     Information             0              1            0
+UPF-213         Warning             0              0            0
+VER-26          Warning             0              1            0
+VER-533         Warning             0              2            0
+
+Diagnostics summary: 3 warnings, 1 informational
+INFO: Using design_libs files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs as specified by envar ETOOLS_DESIGN_LIBS
+INFO: Using ip_lib files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib as specified by envar ETOOLS_IP_LIB
+INFO: Loading eASIC`s 'DC Hierarchical Area Report' service script done.
+INFO: Using design_libs files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs as specified by envar ETOOLS_DESIGN_LIBS
+INFO: Local Settings File project_local.tcl (not provided)
+INFO: Using default operating corner (dc_corner) "ss"
+Information: You already have a 'DC-Ultra-Features' license. (UI-31)
+Information: You already have a 'DC-Ultra-Opt' license. (UI-31)
+WARNING: DC-Ultra specified (dc_use_ultra=1) but license checkout failed
+INFO: Reading/Using  DB Libraries for Corner: ss 0v807ssn40c
+Info : Library    DB n3xs_phys_ecellc_0v807ssn40c   found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_efac_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_logic_dcmisc              found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/dc/timing/np
+Info : Library    DB n3xs_phys_edff_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_clk_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_bram_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_core_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_corner_0v807ssn40c   found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_nw_0v807ssn40c       found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_otp_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_logic_eio_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_eio_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_sys_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_m16gp_0v807ssn40c    found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_m28gp_0v807ssn40c    found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+INFO: Reading SDC file /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/src/ar.sdc
+create_clock -period 40.0 -waveform {0.0 20.0} -name clk4
+Warning: Creating virtual clock named 'clk4' with no sources. (UID-348)
+set_input_delay 0.0  -clock [get_clocks {clk4}] -add_delay [get_ports {A*}]
+set_input_delay 0.0  -clock [get_clocks {clk4}] -add_delay [get_ports {B*}]
+set_output_delay 0.0 -clock [get_clocks {clk4}] -add_delay [get_ports {Z*}]
+Writing ddc file './dc_out/ar_constrained.ddc'.
+INFO: Using design_libs files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs as specified by envar ETOOLS_DESIGN_LIBS
+INFO: Using ip_lib files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib as specified by envar ETOOLS_IP_LIB
+INFO: Loading eASIC`s 'DC Hierarchical Area Report' service script done.
+INFO: Using design_libs files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs as specified by envar ETOOLS_DESIGN_LIBS
+INFO: Local Settings File project_local.tcl (not provided)
+INFO: Using default operating corner (dc_corner) "ss"
+INFO: Reading/Using  DB Libraries for Corner: ss 0v807ssn40c
+Info : Library    DB n3xs_phys_ecellc_0v807ssn40c   found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_efac_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_logic_dcmisc              found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/dc/timing/np
+Info : Library    DB n3xs_phys_edff_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_clk_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_bram_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_core_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_corner_0v807ssn40c   found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_nw_0v807ssn40c       found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_otp_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_logic_eio_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_eio_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_sys_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_m16gp_0v807ssn40c    found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_m28gp_0v807ssn40c    found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Applying derating 2.0 for ecells and 2.0 for efa cells
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | N-2017.09-DWBB_201709.4 |     *     |
+| Licensed DW Building Blocks        | N-2017.09-DWBB_201709.4 |     *     |
+============================================================================
+
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Warning: Operating condition SS_-40T_0807V set on design ar has different process,
+voltage and temperatures parameters than the parameters at which target library 
+n3xs_logic_dcmisc is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'ar'
+Warning: The trip points for the library named n3xs_phys_eio_0v807ssn40c differ from those in the library named n3xs_phys_ecellc_0v807ssn40c. (TIM-164)
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'ar_DW01_sub_0'
+  Processing 'ar_DW01_add_0'
+  Mapping 'ar_DW_mult_uns_0'
+  Mapping 'ar_DW_mult_uns_1'
+  Mapping 'ar_DW_mult_uns_2'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:06   18766.7      0.00       0.0       0.0                          
+    0:00:06   18766.7      0.00       0.0       0.0                          
+    0:00:06   18766.7      0.00       0.0       0.0                          
+    0:00:06   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+
+
+  Beginning Critical Range Optimization
+  -------------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:07   18766.7      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18766.7      0.00       0.0       0.0                          
+    0:00:07   18597.9      0.00       0.0       0.0                          
+    0:00:07   18498.6      0.00       0.0       0.0                          
+    0:00:07   18415.8      0.00       0.0       0.0                          
+    0:00:07   18344.6      0.00       0.0       0.0                          
+    0:00:07   18273.4      0.00       0.0       0.0                          
+    0:00:07   18273.4      0.00       0.0       0.0                          
+    0:00:07   18273.4      0.00       0.0       0.0                          
+    0:00:07   18273.4      0.00       0.0       0.0                          
+    0:00:07   18273.4      0.00       0.0       0.0                          
+    0:00:07   18273.4      0.00       0.0       0.0                          
+    0:00:07   18273.4      0.00       0.0       0.0                          
+    0:00:07   18273.4      0.00       0.0       0.0                          
+
+
+  Beginning Critical Range Optimization
+  -------------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:07   18273.4      0.00       0.0       0.0                          
+    0:00:07   18273.4      0.00       0.0       0.0                          
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/dc/timing/np/n3xs_logic_dcmisc.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_edff_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_clk_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_bram_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_core_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_nw_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_otp_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_logic_eio_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_eio_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_sys_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m16gp_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m28gp_0v807ssn40c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Current design is 'ar'.
+INFO: RAM TRIM - start trimming ram inputs...
+INFO: RAM TRIM - start trimming ram inputs... Overall trimmed ram ports: 0
+INFO: Removing unconnected edff_sync/bram/regfile instances
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+
+  Loading design 'ar'
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+  Simplifying Design 'ar'
+INFO: Done removing unconnected edff_sync/bram/regfile instances
+Writing ddc file './dc_out/ar_compile.ddc'.
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 9 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Warning: Operating condition SS_-40T_0807V set on design ar has different process,
+voltage and temperatures parameters than the parameters at which target library 
+n3xs_logic_dcmisc is characterized. Delays may be inaccurate as a result. (OPT-998)
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+
+  Updating timing information
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (High effort)  (Incremental)
+  -------------------------------
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+  Selecting implementations
+  Mapping 'ar_DW_mult_uns_0_0'
+  Mapping 'ar_DW_mult_uns_0_0'
+  Mapping 'ar_DW_mult_uns_1_0'
+  Mapping 'ar_DW_mult_uns_1_0'
+  Mapping 'ar_DW_mult_uns_2_0'
+  Mapping 'ar_DW_mult_uns_2_0'
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:06   18273.4      0.00       0.0       0.0                          
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+    0:00:08   18273.4      0.00       0.0       0.0                          
+    0:00:08   18273.4      0.00       0.0       0.0                          
+
+
+  Beginning Critical Range Optimization
+  -------------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:08   18273.4      0.00       0.0       0.0                          
+
+
+  Beginning Critical Range Optimization
+  -------------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:08   18273.4      0.00       0.0       0.0                          
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/dc/timing/np/n3xs_logic_dcmisc.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_edff_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_clk_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_bram_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_core_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_nw_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_otp_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_logic_eio_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_eio_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_sys_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m16gp_0v807ssn40c.db'
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m28gp_0v807ssn40c.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: The set_dont_touch_network command is used for clock clk4, for which no sources are specified. (UID-997)
+Writing ddc file './dc_out/ar_compile_incremental.ddc'.
+INFO: changing names
+Writing ddc file './dc_out/ar_final.ddc'.
+Writing verilog file '/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/rundir/synthesis/out/ar_dc_hier.v_nodefparams'.
+Warning: Verilog writer has added 3 nets to module ar using EASIC_UNCONNECTED as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+INFO: Adding defparams to the Verilog file
+DRT-101 INFO: removing synthesis derate.
+DRT-101 INFO: Re reading library:  n3xs_phys_ecellc_0v807ssn40c
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'
+Warning: Overwriting design file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'. (DDB-24)
+Loaded 0 designs.
+DRT-101 INFO: Re reading library:  n3xs_phys_efac_0v807ssn40c
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'
+Warning: Overwriting design file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'. (DDB-24)
+Loaded 0 designs.
+
+  Linking design 'ar'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (6 designs)               /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/rundir/synthesis/ar.db, etc
+  n3xs_phys_ecellc_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db
+  n3xs_phys_efac_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db
+  n3xs_logic_dcmisc (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/dc/timing/np/n3xs_logic_dcmisc.db
+  n3xs_phys_edff_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_edff_0v807ssn40c.db
+  n3xs_phys_clk_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_clk_0v807ssn40c.db
+  n3xs_phys_bram_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_bram_0v807ssn40c.db
+  n3xs_phys_core_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_core_0v807ssn40c.db
+  n3xs_phys_corner_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_corner_0v807ssn40c.db
+  n3xs_phys_nw_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_nw_0v807ssn40c.db
+  n3xs_phys_otp_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_otp_0v807ssn40c.db
+  n3xs_logic_eio_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_logic_eio_0v807ssn40c.db
+  n3xs_phys_eio_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_eio_0v807ssn40c.db
+  n3xs_phys_sys_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_sys_0v807ssn40c.db
+  n3xs_phys_m16gp_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m16gp_0v807ssn40c.db
+  n3xs_phys_m28gp_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m28gp_0v807ssn40c.db
+  dw_foundation.sldb (library)
+                              /easic/tools/synopsys/syn/latest/libraries/syn/dw_foundation.sldb
+
+Applying derating 2.0 for ecells and 2.0 for efa cells
+INFO: Generating reports in ./reports
+Information: Updating design information... (UID-85)
+Information: Running parallel report using a maximum of 1 cores. (RPT-100)
+Warning: Design 'ar' inherited license information from design 'ar_DW_mult_uns_2'. (DDB-74)
+Information: Added key list 'DesignWare' to design 'ar'. (DDB-72)
+INFO: Generating reports in ./reports
+Information: Running parallel report using a maximum of 1 cores. (RPT-100)
+Writing ddc file './dc_out/ar_final_flat.ddc'.
+Writing verilog file '/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/rundir/synthesis/out/ar_dc.v_nodefparams'.
+INFO: Adding defparams to the Verilog file
+DRT-101 INFO: removing synthesis derate.
+DRT-101 INFO: Re reading library:  n3xs_phys_ecellc_0v807ssn40c
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'
+Warning: Overwriting design file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'. (DDB-24)
+Loaded 0 designs.
+DRT-101 INFO: Re reading library:  n3xs_phys_efac_0v807ssn40c
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'
+Warning: Overwriting design file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'. (DDB-24)
+Loaded 0 designs.
+INFO: DC Defparam Extraction: reading template file: /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/../ephysresynthesis/data/params_logical.txt
+INFO: Using design_libs files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs as specified by envar ETOOLS_DESIGN_LIBS
+INFO: Using ip_lib files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/ip_lib as specified by envar ETOOLS_IP_LIB
+INFO: Loading eASIC`s 'DC Hierarchical Area Report' service script done.
+INFO: Using design_libs files from /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs as specified by envar ETOOLS_DESIGN_LIBS
+INFO: Local Settings File project_local.tcl (not provided)
+INFO: Using default operating corner (dc_corner) "ss"
+INFO: Reading/Using  DB Libraries for Corner: ss 0v807ssn40c
+Info : Library    DB n3xs_phys_ecellc_0v807ssn40c   found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_efac_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_logic_dcmisc              found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/dc/timing/np
+Info : Library    DB n3xs_phys_edff_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_clk_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_bram_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_core_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_corner_0v807ssn40c   found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_nw_0v807ssn40c       found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_otp_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_logic_eio_0v807ssn40c     found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_eio_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_sys_0v807ssn40c      found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_m16gp_0v807ssn40c    found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Info : Library    DB n3xs_phys_m28gp_0v807ssn40c    found in /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp
+Read supplementary sdc file 
+DRT-101 INFO: removing synthesis derate.
+DRT-101 INFO: Re reading library:  n3xs_phys_ecellc_0v807ssn40c
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'
+Warning: Overwriting design file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'. (DDB-24)
+Loaded 0 designs.
+DRT-101 INFO: Re reading library:  n3xs_phys_efac_0v807ssn40c
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'
+Warning: Overwriting design file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'. (DDB-24)
+Loaded 0 designs.
+
+  Linking design 'ar'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  ar                          /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/rundir/synthesis/ar.db
+  n3xs_phys_ecellc_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db
+  n3xs_phys_efac_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db
+  n3xs_logic_dcmisc (library) /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/dc/timing/np/n3xs_logic_dcmisc.db
+  n3xs_phys_edff_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_edff_0v807ssn40c.db
+  n3xs_phys_clk_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_clk_0v807ssn40c.db
+  n3xs_phys_bram_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_bram_0v807ssn40c.db
+  n3xs_phys_core_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_core_0v807ssn40c.db
+  n3xs_phys_corner_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_corner_0v807ssn40c.db
+  n3xs_phys_nw_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_nw_0v807ssn40c.db
+  n3xs_phys_otp_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_otp_0v807ssn40c.db
+  n3xs_logic_eio_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_logic_eio_0v807ssn40c.db
+  n3xs_phys_eio_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_eio_0v807ssn40c.db
+  n3xs_phys_sys_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_sys_0v807ssn40c.db
+  n3xs_phys_m16gp_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m16gp_0v807ssn40c.db
+  n3xs_phys_m28gp_0v807ssn40c (library)
+                              /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_m28gp_0v807ssn40c.db
+  dw_foundation.sldb (library)
+                              /easic/tools/synopsys/syn/latest/libraries/syn/dw_foundation.sldb
+
+Applying derating 2.0 for ecells and 2.0 for efa cells
+INFO: Generating reports in ./reports
+Information: Updating design information... (UID-85)
+Information: Running parallel report using a maximum of 1 cores. (RPT-100)
+Warning: Design has no hierarchy.  No cells can be ungrouped. (UID-228)
+INFO: Generating reports in ./reports
+Information: Running parallel report using a maximum of 1 cores. (RPT-100)
+Writing ddc file './dc_out/ar_final_flat.ddc'.
+Writing verilog file '/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/rundir/synthesis/out/ar_dc.v_nodefparams'.
+INFO: Adding defparams to the Verilog file
+DRT-101 INFO: removing synthesis derate.
+DRT-101 INFO: Re reading library:  n3xs_phys_ecellc_0v807ssn40c
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'
+Warning: Overwriting design file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_ecellc_0v807ssn40c.db'. (DDB-24)
+Loaded 0 designs.
+DRT-101 INFO: Re reading library:  n3xs_phys_efac_0v807ssn40c
+Loading db file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'
+Warning: Overwriting design file '/home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/logical/timing/gp/n3xs_phys_efac_0v807ssn40c.db'. (DDB-24)
+Loaded 0 designs.
+INFO: DC Defparam Extraction: reading template file: /home/dmitriev/lastperf/etools2/src/output/data_n3xs/design_libs/../ephysresynthesis/data/params_logical.txt
+
+Thank you...
+

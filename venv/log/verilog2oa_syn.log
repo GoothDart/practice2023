@@ -1,0 +1,11 @@
+*****************************************************************************
+Tool:		verilog2oa          22.50.047
+*****************************************************************************
+Running: verilog2oa -logFile /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/log/verilog2oa_syn.log -lib ar_oa -libDefFile /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/lib.defs -DMSystem oaDMFileSys -libPath /home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/ar_oa -refLibs "ltechlib techlib_lut base_solid_io stechlib" -refViews "abstract layout" -verilog "/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/ar_dc.v" -designPerMod -view abstract -viewType maskLayout -defparams
+Started: Fri Mar 15 15:59:23 2019 (Hostname: mos018.ru.easic.com)
+Finished:	verilog2oa
+Time elapsed:	1.08 seconds
+CPU Time:	0.214311 seconds
+System Time:	0.023033 seconds
+Peak VM:	2785280 bytes
+Messages:	0 errors, 0 warnings

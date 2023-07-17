@@ -1,0 +1,5 @@
+[I] flatten (version #29, Mar 12 2019 11:49:18) started at Fri Mar 15 15:59:24 2019
+[I] Command line:  flatten ar_oa ar abstract flat_netlist -leafLibs ltechlib techlib_lut base_solid_io stechlib
+[I] Using BUF12CRRVTIZ cell as buffer, ports A, IZ.
+[I] Processed 1 modules
+[I] flatten finished at Fri Mar 15 15:59:24 2019

@@ -1,0 +1,87 @@
+[I] 		********** Augustine Version 12.dev ***********
+[I] 		Compiled on: Feb 28 2019 15:59:57
+[I] 		Change: $Change: 86872 $
+[I] Loading fibers from file: /home/dmitriev/lastperf/nextreme-2/data_n3xs/erouter/data/n3xst150f.hgeom
+[I] >>> fabric loadphys --hierarchical --physfabric=/home/dmitriev/lastperf/nextreme-2/data_n3xs/erouter/data/n3xst150f.hgeom 
+[I] Timer: Start: Read physical geom file
+[I] Device: x_min=-1685, y_min=37, x_max=3691976, y_max=3176210
+[I] Physical fabric version read = 'n3xst150f__Nov__4_2016_06_35_51__6387591959575611659'
+[I] Number of rectangle types read = 5175
+[I] Number of fiber wire types read = 12208
+[I] Number of fiber types read = 9997
+[I] Device coord read: left -1685, bottom 37, right 3691976, top 3176210
+[I] Number of egroup cells to read: 25
+[I] Number of egroup components to read: 1809
+[I] Number of top fibers to read: 806283
+[I] Number of fibers to read = 13491259
+[I] Reading physical info for fiber 0 of 13491259
+[I] ************Reading physical info***********
+[I] Memory: RSS size:                       1,015,214,080 b (     968 MB)
+[I] Memory: in use by OA:                      39,377,650 b (      37 MB)
+[I] Reading physical info for fiber 10000000 of 13491259
+[I] ************Reading physical info***********
+[I] Memory: RSS size:                       1,451,311,104 b (   1,384 MB)
+[I] Memory: in use by OA:                       9,571,050 b (       9 MB)
+[I]  
+[I] 12684976 Fibers from eGroups Loaded
+[I] 48081096 Adj Fibers in eGroups
+
+[I]  
+[I] 806283 Fibers on the top level loaded
+[I] 14901008 Adj Fibers on the top level
+
+[I] Total number of Adj Fibers: 62982104
+
+[I] ************Reading hierarchical info***********
+[I] Memory: RSS size:                       1,607,450,624 b (   1,532 MB)
+[I] Memory: in use by OA:                       9,571,050 b (       9 MB)
+[I] Updating fiber track indexes...
+[I] updating phys fiber track indexes done
+[I] Read rtdb file '/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/work/filtered_netlist0.rtdb', version 'n3xst150f__Nov__4_2016_06_35_51__6387591959575611659'
+[I] Parallel Vias inserted: 0
+[I] DB: Loading RTDB file: '/home/dmitriev/data/diamond1/pseudo-device-routing/star_design_large/erouter/work/filtered_netlist0.rtdb'
+[I] Updating programmable vias connection status...
+[I] Number of connected programmable vias: 
+[I] MEMORY: void easic::era::ModuleAugustine::createConnMap(bool) (Diff/Used/Heap): 0/1411.000/1619.000 Mb
+[I] Fiber track connection map has been created (0.04 sec)
+[I] 15:29:52 ERA is about to start. Please wait
+[ ] irt_ready
+[I] Detected changes in file list. Raising events.
+[I] Detected changes in file list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in file list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in file list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in file list. Raising events.
+[I] Detected changes in option list. Raising events.
+[I] Detected changes in option list. Raising events.
+[C] irt_exit
