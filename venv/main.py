@@ -42,19 +42,36 @@ def searchdate(line, flagdate):
     else: return ['', flagdate]
 
 def db_data(fldict):
+
     try:
         connection = mariadb.connect(user = 'Wslacklog_user', password = 'Wslacklog', database = 'Wslacklog_db', host = 'localhost', port = '3306')
-        query = f"INSERT INTO `file`(`file_name`) VALUES ({fldict['Filename']})"
-        connection.cursor().execute(query)
-        query = f"SELECT `id` FROM `file` WHERE `file_name` = {fldict['Filename']}"
-        connection.cursor().execute(query)
-        fileid = connection.cursor().fetchall()
-        query = f"INSERT INTO `errors`(`error_detected`, `id_file`) VALUES ({fldict['Error']}, {fileid})"
-        connection.cursor().execute(query)
-        query = f"INSERT INTO `dates`(`start_date`, `id_file`) VALUES ({fldict['Date']}, {fileid})"
-        connection.cursor().execute(query)
-        query = f"INSERT INTO `slacks`(`worst_slack`, `id_file`) VALUES ({fldict['Slack']}, {fileid})"
-        connection.cursor().execute(query)
+        fname = (fldict['Filename']).split(".")[0]
+        if fldict['Slack']:
+            wslack = fldict['Slack'][-1]
+        else:
+            wslack = 'NULL'
+        #query = f"INSERT INTO `file`(`file_name`) VALUES ('"+f"{fldict['Filename']}"+"')"
+        query = f"INSERT INTO `file`(`file_name`) VALUES ('{fname}')"
+        print('!!!!!!!!!!!!')
+        print(query)
+        cursor = connection.cursor(buffered=True)
+        cursor.execute(query)
+        query = f"SELECT `id` FROM `file` WHERE `file_name` = '{fname}'"
+        #connection.cursor().execute(query)
+        cursor.execute(query)
+        fileid = cursor.fetchall()
+        query = f"INSERT INTO `errors`(`error_detected`, `id_file`) VALUES ({fldict['Error']}, {fileid[0][0]})"
+        print(query)
+        #connection.cursor().execute(query)
+        cursor.execute(query)
+        query = f"INSERT INTO `dates`(`start_date`, `id_file`) VALUES ('"+f"{fldict['Date']}"+f"', {fileid[0][0]})"
+        print(query)
+        #connection.cursor().execute(query)
+        cursor.execute(query)
+        query = f"INSERT INTO `slacks`(`worst_slack`, `id_file`) VALUES ({wslack}, {fileid[0][0]})"
+        print(query)
+        #connection.cursor().execute(query)
+        cursor.execute(query)
         connection.close()
     except Error as error:
         print(f'Ошибка подключения к БД: {error}')
@@ -102,7 +119,7 @@ def main():
         fldict['Error'] = flagerror
         fldict['Slack'] = slack
         
-        debugging(fldict)
+        #debugging(fldict)
 
         db_data(fldict)
 
