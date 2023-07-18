@@ -1,6 +1,8 @@
 from pathlib import Path
 import re
 import os
+import mysql.connector as mariadb
+from mysql.connector import Error
 
 #поиск ошибки
 def searcherror(line):
@@ -38,6 +40,27 @@ def searchdate(line, flagdate):
         else:
             return ['', True]
     else: return ['', flagdate]
+
+def db_data(fldict):
+    try:
+        connection = mariadb.connect(user = 'Wslacklog_user', password = 'Wslacklog', database = 'Wslacklog_db', host = 'localhost', port = '3306')
+        query = f"INSERT INTO `file`(`file_name`) VALUES ({fldict['Filename']})"
+        connection.cursor().execute(query)
+        query = f"SELECT `id` FROM `file` WHERE `file_name` = {fldict['Filename']}"
+        connection.cursor().execute(query)
+        fileid = connection.cursor().fetchall()
+        query = f"INSERT INTO `errors`(`error_detected`, `id_file`) VALUES ({fldict['Error']}, {fileid})"
+        connection.cursor().execute(query)
+        query = f"INSERT INTO `dates`(`start_date`, `id_file`) VALUES ({fldict['Date']}, {fileid})"
+        connection.cursor().execute(query)
+        query = f"INSERT INTO `slacks`(`worst_slack`, `id_file`) VALUES ({fldict['Slack']}, {fileid})"
+        connection.cursor().execute(query)
+        connection.close()
+    except Error as error:
+        print(f'Ошибка подключения к БД: {error}')
+
+def debugging(fldict):
+    print(fldict)
 
 def main():
     namedir = input('введите имя папки')
@@ -79,12 +102,9 @@ def main():
         fldict['Error'] = flagerror
         fldict['Slack'] = slack
         
-        def debugging(fldict):
-            print(fldict)
         debugging(fldict)
 
-        def db_data():
-            return 1
+        db_data(fldict)
 
 main()
 
