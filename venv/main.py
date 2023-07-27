@@ -72,6 +72,7 @@ def db_data(fldict):
         print(query)
         #connection.cursor().execute(query)
         cursor.execute(query)
+        connection.commit()
         connection.close()
     except Error as error:
         print(f'Ошибка подключения к БД: {error}')
